@@ -55,7 +55,7 @@ plugins:
 highlighter: rouge
 
 # jekyll theme
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
 
 # sass settings
 sass:
