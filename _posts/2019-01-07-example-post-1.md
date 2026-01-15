@@ -1,5 +1,5 @@
 ---
-title: Example post 1
+title: Example Post 1
 author: sarah-johnson
 tags:
   - biology
@@ -7,4 +7,6 @@ tags:
   - big data
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+This is an example blog post for the HKCLR Manipulation Group.
+Here you can share research updates, project progress, conference
+highlights, or technical insights related to robotics and manipulation.
