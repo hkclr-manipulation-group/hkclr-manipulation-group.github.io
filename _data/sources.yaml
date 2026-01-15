@@ -9,3 +9,30 @@
     - visual servoing
     - laparoscopic surgery
     - constrained control
+    
+ - id: doi:10.1109/LRA.2022.3191964
+  type: paper
+  description: >
+    This paper presents an easy-to-deploy combined nasal and throat swab robot
+    that achieves high sampling dexterity while remaining robust to external
+    interference, enabling safe and effective medical sampling through
+    soft robotic design.
+  tags:
+    - medical robotics
+    - soft robotics
+    - teleoperation
+    - healthcare automation
+    
+- id: doi:10.1109/IROS60139.2025.11246163
+  type: paper
+  description: >
+    This paper presents a data-driven visual servoing approach for flexible
+    continuum robots operating in constrained environments, enabling robust
+    real-time control under uncertainty and external constraints.
+  tags:
+    - visual servoing
+    - continuum robots
+    - constrained environments
+    - data-driven control
+    - robotics  
+  
