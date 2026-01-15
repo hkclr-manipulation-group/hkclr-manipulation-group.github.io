@@ -1,11 +1,7 @@
 ---
-name: Sarah Johnson
+name: Bohan Wang
 image: images/photo.jpg
-description: Lead Programmer
-role: programmer
-links:
-  email: sarah.johnson@gmail.com
-  twitter: sarahjohnson
+description: Postdoctoral Fellow
+role: Postdoctoral Fellow
+affiliation: Hong Kong Centre for Logistics Robotics, CUHK T Stone Robotics Institute
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

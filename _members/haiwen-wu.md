@@ -1,10 +1,7 @@
 ---
-name: John Doe
+name: Haiwen Wu
 image: images/photo.jpg
-role: phd
-group: alum
-links:
-  github: john-doe
+description: Postdoctoral Fellow
+role: Postdoctoral Fellow
+affiliation: Hong Kong Centre for Logistics Robotics, CUHK T Stone Robotics Institute
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
