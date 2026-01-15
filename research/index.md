@@ -7,14 +7,14 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Our research focuses on vision-based robotic manipulation, embodied AI, and learning-based control for real-world robotic systems.
+We aim to develop robotic systems that can perceive, reason, and interact robustly with complex and unstructured environments.
 
 {% include section.html %}
 
 ## Highlighted
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+{% include citation.html lookup="doi:10.1371/journal.pcbi.1007128" style="rich" %}
 
 {% include section.html %}
 
@@ -24,4 +24,5 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 {% include search-info.html %}
 
-{% include list.html data="citations" component="citation" style="rich" %}
+{% include citation.html lookup="doi:10.1109/TMRB.2019.2949881" style="rich" %}
+

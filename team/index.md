@@ -7,9 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We are the Manipulation Group at HKCLR. Our research focuses on robotic system development, including lightweight robotic arms and mobile dual-arm systems. We also work on AI and control algorithm development, such as vision–language–action models, vision–language models, and both model-based and model-free control methods.
 
 {% include section.html %}
 

@@ -5,51 +5,44 @@ nav:
   tooltip: Email, address, and location
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
+# {% include icon.html icon="fa-regular fa-envelope" %} Contact Us
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We are the **Manipulation Group at the Hong Kong Centre for Logistics Robotics (HKCLR)**,  
+CUHK T Stone Robotics Institute.
+
+Our research focuses on vision-based robotic manipulation, embodied intelligence,
+and learning-based control for real-world robotic systems.  
+Feel free to reach out or visit our lab.
 
 {%
   include button.html
   type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
-%}
-{%
-  include button.html
-  type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
+  text="wchen@hkclr.hk"
+  link="mailto:wchen@hkclr.hk"
 %}
 {%
   include button.html
   type="address"
-  tooltip="Our location on Google Maps for easy navigation"
+  tooltip="Open our location on Google Maps"
   link="https://www.google.com/maps"
 %}
 
 {% include section.html %}
 
 {% capture col1 %}
-
 {%
   include figure.html
   image="images/photo.jpg"
-  caption="Lorem ipsum"
+  caption="Vision-based robotic manipulation"
 %}
-
 {% endcapture %}
 
 {% capture col2 %}
-
 {%
   include figure.html
   image="images/photo.jpg"
-  caption="Lorem ipsum"
+  caption="Embodied AI for interaction and control"
 %}
-
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 %}
@@ -57,21 +50,24 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {% include section.html dark=true %}
 
 {% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+**Vision-Based Manipulation**  
+Visual servoing  
+Deformable object manipulation  
+Flexible and adaptive robot control
 {% endcapture %}
 
 {% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+**AI & Representation**  
+Embodied AI  
+Vision–Language Models (VLM)  
+Vision–Language–Action (VLA)
 {% endcapture %}
 
 {% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+**Control & Learning**  
+Model-based control  
+Model-free control  
+Learning-based manipulation
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 col3=col3 %}
