@@ -7,8 +7,10 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Our projects span robotic manipulation, medical and continuum robotics, and
+data-driven control. We develop open-source software, hardware prototypes,
+and experimental platforms that translate theoretical advances into
+real-world robotic systems.
 
 {% include tags.html tags="publication, resource, website" %}
 
@@ -18,10 +20,15 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 ## Featured
 
+Highlighted projects that represent our core research directions and recent
+developments in robotic manipulation and medical robotics.
+
 {% include list.html component="card" data="projects" filter="group == 'featured'" %}
 
 {% include section.html %}
 
 ## More
+
+Additional projects, tools, and experimental platforms developed by the group.
 
 {% include list.html component="card" data="projects" filter="!group" style="small" %}
