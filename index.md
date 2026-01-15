@@ -5,7 +5,10 @@
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We are the HKCLR Manipulation Group, focusing on intelligent robotic manipulation,
+visual servoing, and medical and continuum robotics. Our research aims to enable
+robots to operate robustly in complex, constrained, and unstructured environments
+through principled control, learning, and perception.
 
 {%
   include button.html
@@ -28,7 +31,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We develop robotic systems and algorithms spanning medical robotics, soft and
+continuum robots, and data-driven control. Our projects integrate hardware design,
+model-based methods, and learning-based approaches to address real-world challenges.
 
 {%
   include button.html
@@ -53,7 +58,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our team consists of researchers, and students with diverse backgrounds
+in robotics, control, and artificial intelligence. We collaborate closely across
+disciplines to translate research into impactful robotic systems.
 
 {%
   include button.html
