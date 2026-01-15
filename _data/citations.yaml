@@ -26,3 +26,57 @@
   - constrained control
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1109/LRA.2022.3191964
+  title: Easy-to-Deploy Combined Nasal/Throat Swab Robot With Sampling Dexterity and
+    Resistance to External Interference
+  authors:
+  - Wei Chen
+  - Zhi Chen
+  - Yiang Lu
+  - Hanwen Cao
+  - Jianshu Zhou
+  - Michael C. F. Tong
+  - Yun-Hui Liu
+  publisher: IEEE Robotics and Automation Letters
+  date: '2022-10-01'
+  link: https://doi.org/hbj4gz
+  type: paper
+  description: 'This paper presents an easy-to-deploy combined nasal and throat swab
+    robot that achieves high sampling dexterity while remaining robust to external
+    interference, enabling safe and effective medical sampling through soft robotic
+    design.
+
+    '
+  tags:
+  - medical robotics
+  - soft robotics
+  - teleoperation
+  - healthcare automation
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/IROS60139.2025.11246163
+  title: Data-driven Visual Servoing of Flexible Continuum Robots in Constrained Environments
+  authors:
+  - Wei Chen
+  - Haiwen Wu
+  - Xiyue Dong
+  - Bohan Yang
+  - Yun-Hui Liu
+  publisher: 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems
+    (IROS)
+  date: '2025-10-19'
+  link: https://doi.org/hbj4g2
+  type: paper
+  description: 'This paper presents a data-driven visual servoing approach for flexible
+    continuum robots operating in constrained environments, enabling robust real-time
+    control under uncertainty and external constraints.
+
+    '
+  tags:
+  - visual servoing
+  - continuum robots
+  - constrained environments
+  - data-driven control
+  - robotics
+  plugin: sources.py
+  file: sources.yaml
