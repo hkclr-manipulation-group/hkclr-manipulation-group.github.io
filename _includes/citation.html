@@ -1,50 +1,76 @@
 {%- comment -%}
-  citation.html — FINAL, STABLE VERSION
+  citation.html — FINAL VERSION (DOI + AUTHOR SUPPORT)
 
   Data sources:
-  - _data/sources.yaml   (auto-generated DOI metadata)
-  - _data/citations.yaml (manual UI metadata: image, description, tags, buttons)
+  - _data/sources.yaml   (bibliographic metadata: title, authors, venue, date)
+  - _data/citations.yaml (UI metadata: image, description, tags, buttons)
 
-  Rules:
-  - ALWAYS match by DOI using where_exp
-  - NEVER merge nil
-  - citations.yaml overrides sources.yaml
+  Supported lookups:
+  - lookup="doi:xxxx"        → single citation
+  - lookup="author:Name"     → list of citations
 {%- endcomment -%}
+
+{% assign citations = nil %}
 
 {% if include.lookup %}
 
-  {%- comment -%} Base DOI metadata {%- endcomment -%}
-  {% assign base = site.data.sources
-    | where_exp: "c", "c.id == include.lookup"
-    | first
-  %}
+  {%- comment -%} === AUTHOR LOOKUP === {%- endcomment -%}
+  {% if include.lookup contains "author:" %}
+    {% assign author_name = include.lookup | remove: "author:" | strip %}
 
-  {%- comment -%} Manual overrides (image, tags, etc.) {%- endcomment -%}
-  {% assign override = site.data.citations
-    | where_exp: "c", "c.id == include.lookup"
-    | first
-  %}
+    {% assign citations = site.data.sources
+      | where_exp: "c", "c.authors contains author_name"
+    %}
 
-  {%- comment -%} Safe merge {%- endcomment -%}
-  {% if base and override %}
-    {% assign citation = base | merge: override %}
-  {% elsif base %}
-    {% assign citation = base %}
-  {% elsif override %}
-    {% assign citation = override %}
+    {%- comment -%} merge UI overrides per paper {%- endcomment -%}
+    {% assign merged = "" | split: "" %}
+    {% for c in citations %}
+      {% assign override = site.data.citations
+        | where_exp: "o", "o.id == c.id"
+        | first
+      %}
+      {% if override %}
+        {% assign item = c | merge: override %}
+      {% else %}
+        {% assign item = c %}
+      {% endif %}
+      {% assign merged = merged | push: item %}
+    {% endfor %}
+    {% assign citations = merged %}
+
+  {%- comment -%} === DOI LOOKUP === {%- endcomment -%}
   {% else %}
-    {% assign citation = include %}
+
+    {% assign base = site.data.sources
+      | where_exp: "c", "c.id == include.lookup"
+      | first
+    %}
+
+    {% assign override = site.data.citations
+      | where_exp: "c", "c.id == include.lookup"
+      | first
+    %}
+
+    {% if base and override %}
+      {% assign citations = base | merge: override | array %}
+    {% elsif base %}
+      {% assign citations = base | array %}
+    {% elsif override %}
+      {% assign citations = override | array %}
+    {% else %}
+      {% assign citations = "" | split: "" %}
+    {% endif %}
+
   {% endif %}
 
-{% else %}
-  {% assign citation = include %}
 {% endif %}
 
 {%- comment -%}
-  Link priority:
-  1. include.link   (internal research page)
-  2. citation.link  (DOI / IEEE)
+  Render citations list
 {%- endcomment -%}
+
+{% for citation in citations %}
+
 {% assign target_link = include.link | default: citation.link %}
 
 <div class="citation-container">
@@ -89,9 +115,6 @@
       >
         {{
           citation.authors
-          | join: ","
-          | split: ","
-          | array_carve: 5
           | join: ", "
           | markdownify
           | remove: "<p>" | remove: "</p>"
@@ -148,3 +171,5 @@
     </div>
   </div>
 </div>
+
+{% endfor %}
