@@ -71,5 +71,3 @@ exclude:
   - README.md
   - LICENSE.md
   - CITATION.cff
-  - images
-  - images/**
