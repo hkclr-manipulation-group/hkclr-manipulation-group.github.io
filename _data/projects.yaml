@@ -22,11 +22,10 @@
   description: >
     A lightweight robotic arm optimized for mobile manipulation applications,
     offering a high payload-to-weight ratio, compliant actuation, and safe
-    human–robot interaction for service and medical robotics.
+    human-robot interaction for service and medical robotics.
   repo: greenelab/lab-website-template
   tags:
     - lightweight robots
     - robotic arms
     - compliant actuation
     - mobile robotics
-

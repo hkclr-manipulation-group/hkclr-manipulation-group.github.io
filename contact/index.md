@@ -59,8 +59,8 @@ Flexible and adaptive robot control
 {% capture col2 %}
 **AI & Representation**  
 Embodied AI  
-Vision–Language Models (VLM)  
-Vision–Language–Action (VLA)
+Vision-Language Models (VLM)  
+Vision-Language-Action (VLA)
 {% endcapture %}
 
 {% capture col3 %}
