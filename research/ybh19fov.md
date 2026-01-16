@@ -1,6 +1,8 @@
 ---
 title: "Adaptive FOV Control of Laparoscopes with Programmable Composed Constraints"
 layout: paper
+permalink: /research/ybh19fov/
+paper_id: doi:10.1109/TMRB.2019.2949881
 ---
 
 <style>
