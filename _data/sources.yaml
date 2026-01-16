@@ -1,37 +1,45 @@
 - id: doi:10.1109/TMRB.2019.2949881
+  title: Adaptive FOV Control of Laparoscopes With Programmable Composed Constraints
+  authors:
+    - Bohan Yang
+    - Wei Chen
+    - Zerui Wang
+    - Yiang Lu
+    - Jiayue Mao
+    - Hesheng Wang
+    - Yun-Hui Liu
+  publisher: IEEE Transactions on Medical Robotics and Bionics
+  date: "2019-11-01"
+  link: https://doi.org/10.1109/TMRB.2019.2949881
   type: paper
-  description: >
-    This paper presents an adaptive field-of-view control method for robotic
-    laparoscopic systems using programmable composed constraints, enabling
-    robust visual servoing and improved surgical scene awareness.
-  tags:
-    - medical robotics
-    - visual servoing
-    - laparoscopic surgery
-    - constrained control
+  image: images/research/ybh19fov.png
 
 - id: doi:10.1109/LRA.2022.3191964
+  title: Easy-to-Deploy Combined Nasal/Throat Swab Robot With Sampling Dexterity and Resistance to External Interference
+  authors:
+    - Wei Chen
+    - Zhi Chen
+    - Yiang Lu
+    - Hanwen Cao
+    - Jianshu Zhou
+    - Michael C. F. Tong
+    - Yun-Hui Liu
+  publisher: IEEE Robotics and Automation Letters
+  date: "2022-10-01"
+  link: https://doi.org/10.1109/LRA.2022.3191964
   type: paper
-  description: >
-    This paper presents an easy-to-deploy combined nasal and throat swab robot
-    that achieves high sampling dexterity while remaining robust to external
-    interference, enabling safe and effective medical sampling through
-    soft robotic design.
-  tags:
-    - medical robotics
-    - soft robotics
-    - teleoperation
-    - healthcare automation
+  image: images/research/cw21toos.png
 
 - id: doi:10.1109/IROS60139.2025.11246163
+  title: Data-driven Visual Servoing of Flexible Continuum Robots in Constrained Environments
+  authors:
+    - Wei Chen
+    - Haiwen Wu
+    - Xiyue Dong
+    - Bohan Yang
+    - Yun-Hui Liu
+  publisher: 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+  date: "2025-10-19"
+  link: https://doi.org/10.1109/IROS60139.2025.11246163
   type: paper
-  description: >
-    This paper presents a data-driven visual servoing approach for flexible
-    continuum robots operating in constrained environments, enabling robust
-    real-time control under uncertainty and external constraints.
-  tags:
-    - visual servoing
-    - continuum robots
-    - constrained environments
-    - data-driven control
-    - robotics
+  image: images/research/cw25modelfree.png

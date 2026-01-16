@@ -14,7 +14,7 @@ We aim to develop robotic systems that can perceive, reason, and interact robust
 
 ## Highlighted
 
-{% include citation.html lookup="doi:10.1109/TMRB.2019.2949881" style="rich" %}
+{% include citation.html lookup="doi:10.1109/TMRB.2019.2949881" link="/research/ybh19fov/" style="rich" %}
 
 {% include section.html %}
 
@@ -24,7 +24,7 @@ We aim to develop robotic systems that can perceive, reason, and interact robust
 
 {% include search-info.html %}
 
-{% include citation.html lookup="doi:10.1109/TMRB.2019.2949881" style="rich" %}
+{% include citation.html lookup="doi:10.1109/TMRB.2019.2949881" link="/research/ybh19fov/" style="rich" %}
 
 {% include citation.html lookup="doi:10.1109/LRA.2022.3191964" style="rich" %}
 

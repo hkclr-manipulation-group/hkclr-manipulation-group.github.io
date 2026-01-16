@@ -39,9 +39,13 @@ collections:
   # generate page for each member
   members:
     output: true
+    permalink: /member/:name/
   # generate page for each post
   posts:
     output: true
+  research:
+    output: true
+    permalink: /research/:name/
 
 # jekyll plugins
 plugins:

@@ -1,26 +1,66 @@
+{%- comment -%}
+  citation.html — FINAL, STABLE VERSION
+
+  Data sources:
+  - _data/sources.yaml   (auto-generated DOI metadata)
+  - _data/citations.yaml (manual UI metadata: image, description, tags, buttons)
+
+  Rules:
+  - ALWAYS match by DOI using where_exp
+  - NEVER merge nil
+  - citations.yaml overrides sources.yaml
+{%- endcomment -%}
+
 {% if include.lookup %}
-  {% assign citation = site.data.citations
-    | where_exp: "citation",
-      "citation.id == include.lookup or citation.title contains include.lookup"
+
+  {%- comment -%} Base DOI metadata {%- endcomment -%}
+  {% assign base = site.data.sources
+    | where_exp: "c", "c.id == include.lookup"
     | first
   %}
+
+  {%- comment -%} Manual overrides (image, tags, etc.) {%- endcomment -%}
+  {% assign override = site.data.citations
+    | where_exp: "c", "c.id == include.lookup"
+    | first
+  %}
+
+  {%- comment -%} Safe merge {%- endcomment -%}
+  {% if base and override %}
+    {% assign citation = base | merge: override %}
+  {% elsif base %}
+    {% assign citation = base %}
+  {% elsif override %}
+    {% assign citation = override %}
+  {% else %}
+    {% assign citation = include %}
+  {% endif %}
+
 {% else %}
   {% assign citation = include %}
 {% endif %}
 
+{%- comment -%}
+  Link priority:
+  1. include.link   (internal research page)
+  2. citation.link  (DOI / IEEE)
+{%- endcomment -%}
+{% assign target_link = include.link | default: citation.link %}
+
 <div class="citation-container">
   <div class="citation">
-    {% if include.style == "rich" %}
+
+    {% if include.style == "rich" and citation.image %}
       <a
-        {% if citation.link %}
-          href="{{ citation.link | relative_url | uri_escape }}"
+        {% if target_link %}
+          href="{{ target_link | relative_url | uri_escape }}"
         {% endif %}
         class="citation-image"
-        aria-label="{{ citation.title | default: "citation link" | regex_strip }}"
+        aria-label="{{ citation.title | default: 'citation link' | regex_strip }}"
       >
         <img
           src="{{ citation.image | relative_url | uri_escape }}"
-          alt="{{ citation.title | default: "citation image" | regex_strip }}"
+          alt="{{ citation.title | default: 'citation image' | regex_strip }}"
           loading="lazy"
           {% include fallback.html %}
         >
@@ -32,8 +72,8 @@
       {% include icon.html icon=type.icon %}
 
       <a
-        {% if citation.link %}
-          href="{{ citation.link | relative_url | xml_escape }}"
+        {% if target_link %}
+          href="{{ target_link | relative_url | xml_escape }}"
         {% endif %}
         class="citation-title"
       >
@@ -42,8 +82,8 @@
 
       <div
         class="citation-authors"
-        {% if citation.authors.size > 10 %}
-          data-tooltip="{{ citation.authors | join: ", " | xml_escape }}"
+        {% if citation.authors and citation.authors.size > 10 %}
+          data-tooltip="{{ citation.authors | join: ', ' | xml_escape }}"
         {% endif %}
         tabindex="0"
       >
@@ -61,19 +101,20 @@
 
       <div class="citation-details">
         <span class="citation-publisher">
-          {{- citation.publisher | default: "[no publisher info]" -}}
+          {{ citation.publisher | default: "[no publisher info]" }}
         </span>
         &nbsp;·&nbsp;
         <span class="citation-date">
-          {{- citation.date | default: "[no date info]" | date: "%d %b %Y" -}}
+          {{ citation.date | default: "[no date info]" | date: "%d %b %Y" }}
         </span>
         &nbsp;·&nbsp;
         <span class="citation-id">
-          {{- citation.id | default: "[no id info]" -}}
+          {{ citation.id | default: "[no id info]" }}
         </span>
       </div>
 
       {% if include.style == "rich" %}
+
         {% if citation.description %}
           <div class="citation-description">
             {{
@@ -85,11 +126,10 @@
           </div>
         {% endif %}
 
-        {% if citation.buttons.size > 0 %}
+        {% if citation.buttons and citation.buttons.size > 0 %}
           <div class="citation-buttons">
             {% for button in citation.buttons %}
-              {%
-                include button.html
+              {% include button.html
                 type=button.type
                 icon=button.icon
                 text=button.text
@@ -100,9 +140,10 @@
           </div>
         {% endif %}
 
-        {% if citation.tags.size > 0 or citation.repo %}
+        {% if citation.tags and citation.tags.size > 0 or citation.repo %}
           {% include tags.html tags=citation.tags repo=citation.repo %}
         {% endif %}
+
       {% endif %}
     </div>
   </div>

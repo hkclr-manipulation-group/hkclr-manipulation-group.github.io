@@ -1,5 +1,5 @@
 ---
-name: Bohan Wang
+name: Bohan Yang
 image: images/photo.jpg
 description: Postdoctoral Fellow
 role: Postdoctoral Fellow

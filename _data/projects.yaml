@@ -1,13 +1,13 @@
 - title: Mobile Dual-arm Manipulation Platform
   subtitle: Coordinated bimanual manipulation on a mobile base
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
+  image: images/dual-arm.png
+  link: https://github.com/CURI-Simulation-and-Software-Group
   description: >
     A mobile dual-arm robotic system designed for coordinated bimanual
     manipulation, combining a lightweight mobile base with two collaborative
     robot arms to enable dexterous manipulation in unstructured environments.
-  repo: greenelab/lab-website-template
+  #repo: https://github.com/CURI-Simulation-and-Software-Group
   tags:
     - mobile manipulation
     - dual-arm robots
@@ -17,13 +17,13 @@
 - title: Lightweight Robotic Arm
   subtitle: High payload-to-weight ratio for mobile platforms
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
+  image: images/single-arm.png
+  link: https://github.com/CURI-Simulation-and-Software-Group
   description: >
     A lightweight robotic arm optimized for mobile manipulation applications,
     offering a high payload-to-weight ratio, compliant actuation, and safe
     human-robot interaction for service and medical robotics.
-  repo: greenelab/lab-website-template
+  # repo: greenelab/lab-website-template
   tags:
     - lightweight robots
     - robotic arms
