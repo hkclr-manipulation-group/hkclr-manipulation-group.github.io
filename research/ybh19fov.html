@@ -1,650 +1,172 @@
-<!DOCTYPE html>
-<html lang="en" data-dark="false">
-  <head>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!--
-  put your analytics (e.g. Google Analytics) tracking code here
--->
-
-  <!--
-  put your search engine verification (e.g. Google Search Console) tag here
--->
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title>Adaptive FOV Control of Laparoscopes | HKCLR Manipulation Group</title>
-
-<link rel="icon" href="/images/icon.png">
-
-<meta name="title" content="Adaptive FOV Control of Laparoscopes">
-<meta name="description" content="An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.">
-
-<meta property="og:title" content="Adaptive FOV Control of Laparoscopes">
-<meta property="og:site_title" content="HKCLR Manipulation Group">
-<meta property="og:description" content="An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.">
-<meta property="og:url" content="https://hkclr-manipulation-group.github.io">
-<meta property="og:image" content="/images/share.jpg">
-<meta property="og:locale" content="en_US">
-
-<meta property="twitter:title" content="Adaptive FOV Control of Laparoscopes">
-<meta property="twitter:description" content="An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.">
-<meta property="twitter:url" content="https://hkclr-manipulation-group.github.io">
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:image" content="/images/share.jpg">
-
-
-  <meta property="og:type" content="website">
-
-
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    
-      "@type": "WebSite",
-    
-    "name": "Adaptive FOV Control of Laparoscopes",
-    "description": "An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.",
-    "headline": "Adaptive FOV Control of Laparoscopes",
-    "publisher": {
-      "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
-    },
-    "url": "https://hkclr-manipulation-group.github.io"
-  }
-</script>
-
-<link rel="alternate" type="application/rss+xml" href="https://hkclr-manipulation-group.github.io/feed.xml">
-
-  <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
-
-<!-- Font Awesome icons (load asynchronously due to size) -->
-
-<link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
-<noscript>
-  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
-</noscript>
-
-  <!-- third party styles -->
-<!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
-<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
-
-<!-- include all sass in styles folder -->
-
-
-  
-    <link href="/_styles/-theme.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/alert.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/all.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/anchor.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/background.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/body.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/bold.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/button.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/card.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/checkbox.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/citation.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/code.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/cols.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/dark-toggle.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/details.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/feature.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/figure.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/float.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/font.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/footer.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/form.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/grid.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/header.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/heading.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/highlight.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/icon.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/image.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/link.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/list.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/main.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/paragraph.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/portrait.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/post-excerpt.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/post-info.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/post-nav.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/quote.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/rule.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/search-box.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/search-info.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/section.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/table.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/tags.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/textbox.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/tooltip.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/util.css" rel="stylesheet">
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-<!-- include all css in styles folder -->
-
-
-
-  <!-- third party scripts -->
-<script src="https://unpkg.com/@popperjs/core@2" defer></script>
-<script src="https://unpkg.com/tippy.js@6" defer></script>
-<script src="https://unpkg.com/mark.js@8" defer></script>
-
-<!-- include all js in scripts folder -->
-
-
-  <script src="/_scripts/anchors.js"></script>
-
-  <script src="/_scripts/dark-mode.js"></script>
-
-  <script src="/_scripts/fetch-tags.js"></script>
-
-  <script src="/_scripts/search.js"></script>
-
-  <script src="/_scripts/site-search.js"></script>
-
-  <script src="/_scripts/table-wrap.js"></script>
-
-  <script src="/_scripts/tooltip.js"></script>
-
+<style>
+/* ===== Global ===== */
+.paper-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 3rem 1.5rem;
+  font-family: Inter, -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Roboto, "Helvetica Neue",
+               Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  letter-spacing: 0.01em;
+  color: #222;
+}
+
+/* ===== Title ===== */
+.paper-title {
+  font-size: 2.1rem;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.5rem;
+}
+
+/* ===== Meta ===== */
+.paper-authors {
+  font-size: 1.05rem;
+}
+
+.paper-venue {
+  margin-top: 0.25rem;
+  color: #666;
+}
+
+/* ===== Links ===== */
+.paper-links {
+  margin-top: 0.8rem;
+}
+
+.paper-links a {
+  color: #0056d6;
+  text-decoration: none;
+  margin-right: 0.4rem;
+}
+
+.paper-links a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Figure ===== */
+.paper-figure {
+  margin: 2.5rem 0;
+  text-align: center;
+}
+
+.paper-figure img {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+.paper-figure figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* ===== Sections ===== */
+.paper-container h2 {
+  margin-top: 2.5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+/* ===== Abstract ===== */
+.paper-abstract {
+  max-width: 120ch;
+  text-align: justify;
+}
+
+/* ===== Contributions ===== */
+.paper-contributions {
+  padding-left: 1.2rem;
+}
+
+.paper-contributions li {
+  margin-bottom: 0.4rem;
+}
+
+/* ===== BibTeX ===== */
+.paper-bibtex {
+  background: #f6f8fa;
+  padding: 1rem;
+  overflow-x: auto;
+  border-radius: 6px;
+  font-family: Consolas, "SF Mono", "JetBrains Mono", monospace;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+</style>
 
 </head>
+<body>
+<div class="paper-container">
 
-  <body>
-    
+  <h1 class="paper-title">
+    Adaptive FOV Control of Laparoscopes With Programmable Composed Constraints
+  </h1>
 
-
-
-
-
-
-
-<header class="background" style="--image: url('/images/background.jpg')" data-dark="true">
-  <a href="/" class="home">
-    
-      <span class="logo">
-        
-          <img src="/images/logo.png" alt="logo">
-        
-      </span>
-    
-    
-      <span class="title-text" data-tooltip="Home">
-        
-          <span class="title">HKCLR Manipulation Group</span>
-        
-        
-      </span>
-    
-  </a>
-
-  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
-
-  <nav>
-    
-    
-      
-        <a href="/research/" data-tooltip="Published works">
-          Research
-        </a>
-      
-    
-      
-        <a href="/projects/" data-tooltip="Software, datasets, and more">
-          Projects
-        </a>
-      
-    
-      
-        <a href="/team/" data-tooltip="About our team">
-          Team
-        </a>
-      
-    
-      
-        <a href="/blog/" data-tooltip="Musings and miscellany">
-          Blog
-        </a>
-      
-    
-      
-        <a href="/contact/" data-tooltip="Email, address, and location">
-          Contact
-        </a>
-      
-    
-  </nav>
-</header>
-
-    <main>
-      <!--
-  modify main content of page:
-  - add section breaks
-  - attach section properties
-  - filter out blank sections
--->
-
-
-
-
-
-
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <div class="paper-header" style="display:flex; gap:1.5rem; align-items:flex-start; margin-bottom:2rem;">
-
-  
-    <img src="/images/research/ybh19fov.png" alt="Adaptive FOV Control of Laparoscopes With Programmable Composed Constraints" style="width:260px; height:auto;">
-  
-
-  <div>
-    <h1 style="margin-top:0; text-transform:none;">
-      Adaptive FOV Control of Laparoscopes With Programmable Composed Constraints
-    </h1>
-
-    <div>
-      Bohan Yang, Wei Chen, Zerui Wang, Yiang Lu, Jiayue Mao, Hesheng Wang, Yun-Hui Liu
-    </div>
-
-    <div>
-      IEEE Transactions on Medical Robotics and Bionics ·
-      01 Nov 2019 ·
-      <a href="https://doi.org/10.1109/TMRB.2019.2949881">doi:10.1109/TMRB.2019.2949881</a>
-    </div>
+  <div class="paper-authors">
+    Bohan Yang, Wei Chen, Zerui Wang, Yiang Lu, Jiayue Mao, Hesheng Wang, Yun-Hui Liu
   </div>
+
+  <div class="paper-venue">
+    <em>IEEE Transactions on Medical Robotics and Bionics</em>,
+    2019
+  </div>
+
+  <div class="paper-links">
+    <a href="https://doi.org/10.1109/TMRB.2019.2949881" target="_blank">Paper</a>
+    
+    
+    
+  </div>
+
+  
+  <figure class="paper-figure">
+    <img src="/images/research/ybh19fov.png" alt="Adaptive FOV Control of Laparoscopes With Programmable Composed Constraints">
+    <figcaption>
+      Overview of adaptive field-of-view control in robotic laparoscopy.
+    </figcaption>
+  </figure>
+  
+
+  <h2>Abstract</h2>
+  <p class="paper-abstract">
+    This paper presents an adaptive field-of-view (FOV) control framework
+    for robotic laparoscopic systems based on programmable composed constraints.
+    The proposed approach enables intelligent camera motion by integrating
+    vision-based feedback with task-level constraints, improving both
+    operational safety and visual efficiency in minimally invasive surgery.
+  </p>
+
+  <h2>Main Contributions</h2>
+  <ul class="paper-contributions">
+    <li>Adaptive FOV control strategy for robotic laparoscopes</li>
+    <li>Vision-based programmable composed constraints</li>
+    <li>Experimental validation on medical robotic platforms</li>
+  </ul>
+
+  <h2>Citation</h2>
+  <pre class="paper-bibtex">
+@article{yang2019adaptive,
+  title   = {Adaptive FOV Control of Laparoscopes with Programmable Composed Constraints},
+  author  = {Yang, Bohan and Chen, Wei and Wang, Zerui and Lu, Yiang and
+             Mao, Jiayue and Wang, Hesheng and Liu, Yun-Hui},
+  journal = {IEEE Transactions on Medical Robotics and Bionics},
+  volume  = {1},
+  number  = {4},
+  pages   = {206--217},
+  year    = {2019},
+  publisher = {IEEE}
+}
+  </pre>
 
 </div>
 
-<h2 id="abstract">Abstract</h2>
-
-<p>This paper presents an adaptive field-of-view control method for robotic
-laparoscopic systems using programmable composed constraints.</p>
-
-<h2 id="highlights">Highlights</h2>
-
-<ul>
-  <li>Vision-based control</li>
-  <li>Medical robotics</li>
-  <li>Programmable constraints</li>
-</ul>
-  </section>
-
-
-    </main>
-    
-
-
-<footer class="background" style="--image: url('/images/background.jpg')" data-dark="true" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
-  <div>
-    
-      
-      
-      
-
-
-
-  <div class="button-wrapper">
-    <a class="button" href="mailto:contact@your-lab.com" data-tooltip="Email" data-style="bare" aria-label="Email">
-      <i class="icon fa-solid fa-envelope"></i>
-      
-    </a>
-  </div>
-
-
-    
-      
-      
-      
-
-
-
-  <div class="button-wrapper">
-    <a class="button" href="https://orcid.org/0000-0001-8713-9213" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
-      <i class="icon fa-brands fa-orcid"></i>
-      
-    </a>
-  </div>
-
-
-    
-      
-      
-      
-
-
-
-  <div class="button-wrapper">
-    <a class="button" href="https://scholar.google.com/citations?user=ETJoidYAAAAJ" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
-      <i class="icon fa-brands fa-google"></i>
-      
-    </a>
-  </div>
-
-
-    
-      
-      
-      
-
-
-
-  <div class="button-wrapper">
-    <a class="button" href="https://github.com/your-lab" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
-      <i class="icon fa-brands fa-github"></i>
-      
-    </a>
-  </div>
-
-
-    
-      
-      
-      
-
-
-
-  <div class="button-wrapper">
-    <a class="button" href="https://twitter.com/YourLabHandle" data-tooltip="Twitter" data-style="bare" aria-label="Twitter">
-      <i class="icon fa-brands fa-twitter"></i>
-      
-    </a>
-  </div>
-
-
-    
-      
-      
-      
-
-
-
-  <div class="button-wrapper">
-    <a class="button" href="https://youtube.com/YourLabChannel" data-tooltip="YouTube" data-style="bare" aria-label="YouTube">
-      <i class="icon fa-brands fa-youtube"></i>
-      
-    </a>
-  </div>
-
-
-    
-  </div>
-
-  <div>
-    © 2026
-    HKCLR Manipulation Group
-      |   Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a>
-  </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
-</footer>
-
-  </body>
+</body>
 </html>
