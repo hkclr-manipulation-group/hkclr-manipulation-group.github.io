@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-Our projects span robotic manipulation, medical and continuum robotics, and
+Our projects span robotic manipulation, embodied AI, and
 data-driven control. We develop open-source software, hardware prototypes,
 and experimental platforms that translate theoretical advances into
 real-world robotic systems.

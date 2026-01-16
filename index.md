@@ -23,7 +23,7 @@ through principled control, learning, and perception.
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/research.png"
   link="research"
   title="Our Research"
   text=text
@@ -48,7 +48,7 @@ model-based methods, and learning-based approaches to address real-world challen
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/project.png"
   link="projects"
   title="Our Projects"
   flip=true
@@ -75,7 +75,7 @@ disciplines to translate research into impactful robotic systems.
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/team.jpg"
   link="team"
   title="Our Team"
   text=text
