@@ -1,7 +1,22 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1109/IROS60139.2025.11246163
+  title: Data-driven Visual Servoing of Flexible Continuum Robots in Constrained Environments
+  authors:
+  - Wei Chen
+  - Haiwen Wu
+  - Xiyue Dong
+  - Bohan Yang
+  - Yun-Hui Liu
+  publisher: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+  date: '2025-09-25'
+  link: https://doi.org/10.1109/IROS60139.2025.11246163
+  image: /images/research/cw25modelfree.png
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1109/TMRB.2019.2949881
-  title: Adaptive FOV Control of Laparoscopes With Programmable Composed Constraints
+  title: Adaptive FOV Control of Laparoscopes with Programmable Composed Constraints
   authors:
   - Bohan Yang
   - Wei Chen
@@ -13,41 +28,7 @@
   publisher: IEEE Transactions on Medical Robotics and Bionics
   date: '2019-11-01'
   link: https://doi.org/10.1109/TMRB.2019.2949881
+  image: /images/research/ybh19fov.png
   type: paper
-  image: images/research/ybh19fov.png
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1109/LRA.2022.3191964
-  title: Easy-to-Deploy Combined Nasal/Throat Swab Robot With Sampling Dexterity and
-    Resistance to External Interference
-  authors:
-  - Wei Chen
-  - Zhi Chen
-  - Yiang Lu
-  - Hanwen Cao
-  - Jianshu Zhou
-  - Michael C. F. Tong
-  - Yun-Hui Liu
-  publisher: IEEE Robotics and Automation Letters
-  date: '2022-10-01'
-  link: https://doi.org/10.1109/LRA.2022.3191964
-  type: paper
-  image: images/research/cw21toos.png
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1109/IROS60139.2025.11246163
-  title: Data-driven Visual Servoing of Flexible Continuum Robots in Constrained Environments
-  authors:
-  - Wei Chen
-  - Haiwen Wu
-  - Xiyue Dong
-  - Bohan Yang
-  - Yun-Hui Liu
-  publisher: 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems
-    (IROS)
-  date: '2025-10-19'
-  link: https://doi.org/10.1109/IROS60139.2025.11246163
-  type: paper
-  image: images/research/cw25modelfree.png
   plugin: sources.py
   file: sources.yaml
