@@ -1,6 +1,6 @@
 ---
 name: Wei Chen
-image: images/photo.jpg
+image: images/members/wei-chen.png
 description: Postdoctoral Fellow
 role: Postdoctoral Fellow
 affiliation: Hong Kong Centre for Logistics Robotics, CUHK T Stone Robotics Institute
