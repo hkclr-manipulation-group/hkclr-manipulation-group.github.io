@@ -20,7 +20,7 @@ for md in Path("research").glob("*.md"):
         "authors": post.get("authors", []),
         "publisher": post.get("venue"),
         "date": post.get("date"),
-        "image": post.get("image"),
+        "image": post.get("image") or "/images/research/photo.jpg",
         "type": "paper",
         "link": f"https://doi.org/{post['paper_id'].replace('doi:', '')}",
     })
