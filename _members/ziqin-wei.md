@@ -1,7 +1,10 @@
 ---
-name: Bohan Yang
+name: Ziqin Wei
 image: images/photo.jpg
-description: Postdoctoral Fellow
-role: postdoc
+description: Phd Student
+role: phd
 affiliation: Hong Kong Centre for Logistics Robotics, CUHK T Stone Robotics Institute
+links:
+  email: zqwei@link.cuhk.edu.hk
 ---
+
