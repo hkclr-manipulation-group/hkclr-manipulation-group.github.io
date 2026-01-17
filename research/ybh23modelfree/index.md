@@ -3,8 +3,7 @@ title: "Model-Free 3-D Shape Control of Deformable Objects Using Novel Features 
 layout: paper
 permalink: /research/tro23-modelfree-shape/
 paper_id: doi:10.1109/TRO.2023.3269347
-# image 可写可不写；不写则 sources.yaml / 脚本会自动用默认图
-# image: /images/research/tro23_shape.png
+image: /photo.png
 
 authors:
   - Bohan Yang
