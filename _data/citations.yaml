@@ -1,5 +1,20 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1109/ROBIO64047.2024.10907681
+  title: A Robotic Skin Using Low-density FBGs for Human-robot Interaction
+  authors:
+  - Xiyue Dong
+  - Chin-Kiu Lam
+  - Wei Chen
+  - Bohan Yang
+  - Yun-Hui Liu
+  publisher: IEEE International Conference on Robotics and Biomimetics (ROBIO)
+  date: '2024-01-01'
+  link: https://doi.org/10.1109/ROBIO64047.2024.10907681
+  image: /images/research/photo.jpg
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1109/IROS60139.2025.11246163
   title: Data-driven Visual Servoing of Flexible Continuum Robots in Constrained Environments
   authors:
@@ -12,6 +27,24 @@
   date: '2025-09-25'
   link: https://doi.org/10.1109/IROS60139.2025.11246163
   image: /images/research/cw25modelfree.png
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/RCAR54675.2022.9872266
+  title: Configurability Selection of Robotic Arm with Constrained Task and Environment
+    in Laparoscopic Hysterectomy for Uterus Manipulation
+  authors:
+  - Wei Chen
+  - Jiahao Wu
+  - Jianshu Zhou
+  - Hesheng Wang
+  - Yudong Wang
+  - Tak Hong Cheung
+  - Yun-Hui Liu
+  publisher: IEEE International Conference on Real-time Computing and Robotics (RCAR)
+  date: '2022-01-01'
+  link: https://doi.org/10.1109/RCAR54675.2022.9872266
+  image: /images/research/photo.jpg
   type: paper
   plugin: sources.py
   file: sources.yaml
@@ -29,6 +62,43 @@
   date: '2019-11-01'
   link: https://doi.org/10.1109/TMRB.2019.2949881
   image: /images/research/ybh19fov.png
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/TMRB.2021.3123530
+  title: Tele-Operated Oropharyngeal Swab (TOOS) Robot Enabled by TSS Soft Hand for
+    Safe and Effective Sampling
+  authors:
+  - Wei Chen
+  - Jianshu Zhou
+  - Shing Shin Cheng
+  - Yiang Lu
+  - Fangxun Zhong
+  - Yuan Gao
+  - Yaqing Wang
+  - Lingbin Xue
+  - Michael C. F. Tong
+  - Yun-Hui Liu
+  publisher: IEEE Transactions on Medical Robotics and Bionics
+  date: '2021-11-01'
+  link: https://doi.org/10.1109/TMRB.2021.3123530
+  image: /images/research/cw21toos.png
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/TRO.2023.3269347
+  title: Model-Free 3-D Shape Control of Deformable Objects Using Novel Features Based
+    on Modal Analysis
+  authors:
+  - Bohan Yang
+  - Bo Lu
+  - Wei Chen
+  - Fangxun Zhong
+  - Yun-Hui Liu
+  publisher: IEEE Transactions on Robotics
+  date: '2023-08-01'
+  link: https://doi.org/10.1109/TRO.2023.3269347
+  image: /images/research/photo.jpg
   type: paper
   plugin: sources.py
   file: sources.yaml
