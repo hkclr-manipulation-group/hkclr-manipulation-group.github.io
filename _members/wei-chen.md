@@ -25,10 +25,14 @@ Wei Chen received the M.S. and Ph.D. degrees in Mechanical and Automation Engine
 
 ## Research Interests
 
+<div style="column-count: 1; column-gap: 0;">
+
 - Visual servoing
 - Medical robotics
 - Learning-based control
 - Embodied AI
+
+</div>
 
 ## Publications
 
