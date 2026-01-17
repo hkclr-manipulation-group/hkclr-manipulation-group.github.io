@@ -14,6 +14,11 @@ models, vision-language models, and both model-based and model-free control meth
 
 {% include section.html %}
 
+## Director of HKCLR
+{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
+
+{% include section.html %}
+
 ## Postdoctoral Researchers
 {% include list.html data="members" component="portrait" filter="role == 'team-leader'" %}
 {% include list.html data="members" component="portrait" filter="role == 'postdoc'" %}

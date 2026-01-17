@@ -2,8 +2,12 @@
 
 # team member roles
 
-team-leader:
+pi:
   icon: fa-solid fa-microscope
+  description: Professor, Director
+
+team-leader:
+  icon: fa-solid fa-glasses
   description: Postdoctoral Fellow
 
 postdoc:
