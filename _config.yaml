@@ -74,4 +74,6 @@ include:
 exclude:
   - README.md
   - LICENSE.md
-  - CITATION.cff
+  - CITATION.cf
+  - .venv
+  - .venv/**f

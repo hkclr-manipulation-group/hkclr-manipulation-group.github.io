@@ -71,7 +71,15 @@
 
 {% for citation in citations %}
 
-{% assign target_link = include.link | default: citation.link %}
+{% assign local_page = site.pages | where: "paper_id", citation.id | first %}
+
+{% if include.link %}
+  {% assign target_link = include.link %}
+{% elsif local_page %}
+  {% assign target_link = local_page.url %}
+{% else %}
+  {% assign target_link = citation.link %}
+{% endif %}
 
 <div class="citation-container">
   <div class="citation">

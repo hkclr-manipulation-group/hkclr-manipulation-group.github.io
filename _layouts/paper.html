@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }}</title>
+
+  <style>
+    /* ===== Paper Layout (INLINE, NO BUILD) ===== */
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont,
+                   "Segoe UI", Roboto, Arial, sans-serif;
+      color: #1f2328;
+    }
+
+    .paper-page {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      background: #fff;
+    }
+
+    .paper-container {
+      width: 100%;
+      max-width: 880px;
+      padding: 3rem 1.5rem;
+      line-height: 1.7;
+    }
+
+    .paper-title,
+    .paper-authors,
+    .paper-venue,
+    .paper-links {
+      text-align: center;
+    }
+
+    .paper-title {
+      font-size: 2rem;
+      margin-bottom: 0.6rem;
+    }
+
+    .paper-venue {
+      color: #6a737d;
+      margin-bottom: 1.2rem;
+    }
+
+    .paper-figure {
+      margin: 2.5rem 0;
+      text-align: center;
+    }
+
+    .paper-figure img {
+      max-width: 100%;
+      border-radius: 6px;
+    }
+
+    .paper-abstract {
+      max-width: 70ch;
+      margin: 0 auto;
+      text-align: justify;
+    }
+
+    @media (max-width: 768px) {
+      .paper-container {
+        padding: 2rem 1.2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="paper-page">
+    <div class="paper-container">
+      {{ content }}
+    </div>
+  </main>
+</body>
+</html>
