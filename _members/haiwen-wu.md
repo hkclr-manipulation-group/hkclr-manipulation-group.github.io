@@ -18,3 +18,7 @@ H. Wu received the Ph.D. degrees from University of Groningen, Groningen, The Ne
 - Distributed control
 - Observer design
 
+## Publications
+
+{% include citation.html lookup="author:Haiwen Wu" style="rich" %}
+
