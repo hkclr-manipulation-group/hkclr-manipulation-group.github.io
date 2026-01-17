@@ -1,9 +1,9 @@
 ---
 title: "Configurability Selection of Robotic Arm with Constrained Task and Environment in Laparoscopic Hysterectomy for Uterus Manipulation"
 layout: paper
-permalink: /research/rcar22-configurability/
 paper_id: doi:10.1109/RCAR54675.2022.9872266
-# image omitted → script / sources.yaml will fall back to photo.jpg
+date: 2022-01-01
+image: /photo.png
 
 authors:
   - Wei Chen
@@ -15,7 +15,6 @@ authors:
   - Yun-Hui Liu
 
 venue: IEEE International Conference on Real-time Computing and Robotics (RCAR)
-date: 2022-01-01
 ---
 
 {% assign paper = site.data.sources | where: "id", page.paper_id | first %}
@@ -40,9 +39,6 @@ date: 2022-01-01
 {% if paper.image %}
 <figure class="paper-figure">
   <img src="{{ paper.image | relative_url }}" alt="{{ paper.title }}">
-  <figcaption>
-    Configurability analysis of robotic arm setups for constrained laparoscopic uterus manipulation.
-  </figcaption>
 </figure>
 {% endif %}
 
@@ -50,19 +46,22 @@ date: 2022-01-01
 
 <h2>Abstract</h2>
 <p class="paper-abstract">
-This paper investigates the configurability selection of robotic arms for uterus manipulation
-in laparoscopic hysterectomy under constrained task and environmental conditions.
-A unified modeling framework is proposed to evaluate feasible robotic configurations by
-considering task requirements, anatomical constraints, and robot kinematics.
-Heuristic-based selection strategies are employed to identify suitable robotic arm configurations
-that improve feasibility and safety in real-time surgical scenarios.
+This paper investigates the configurability selection problem of robotic arms for uterus
+manipulation in laparoscopic hysterectomy under constrained task and environmental
+conditions. A unified modeling framework is proposed to systematically evaluate the
+feasibility of different robotic configurations by jointly considering task requirements,
+anatomical constraints, and robot kinematics. Based on the proposed framework,
+heuristic selection strategies are developed to identify suitable robotic arm
+configurations that improve operational feasibility and safety in real-time surgical
+scenarios. The effectiveness of the proposed method is validated through representative
+laparoscopic hysterectomy cases.
 </p>
 
 <h2>Main Contributions</h2>
 <ul class="paper-contributions">
-  <li>Unified modeling framework for configurability analysis in constrained surgical tasks</li>
-  <li>Heuristic-based selection of robotic arm configurations</li>
-  <li>Validation in laparoscopic hysterectomy scenarios</li>
+  <li>Formulation of a configurability selection problem for robotic uterus manipulation in constrained surgical environments</li>
+  <li>Unified modeling framework integrating task requirements, anatomical constraints, and robot kinematics</li>
+  <li>Heuristic-based configuration selection strategies validated in laparoscopic hysterectomy scenarios</li>
 </ul>
 
 <h2>Citation</h2>

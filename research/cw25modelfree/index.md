@@ -3,7 +3,7 @@ title: "Data-driven Visual Servoing of Flexible Continuum Robots in Constrained 
 layout: paper
 permalink: /research/iros25-dvscr/
 paper_id: doi:10.1109/IROS60139.2025.11246163
-image: /images/research/cw25modelfree.png
+image: /photo.png
 
 authors:
   - Wei Chen
@@ -38,9 +38,6 @@ date: 2025-09-25
 {% if paper.image %}
 <figure class="paper-figure">
   <img src="{{ paper.image | relative_url }}" alt="{{ paper.title }}">
-  <figcaption>
-    Data-driven visual servoing for flexible continuum robots operating in constrained environments.
-  </figcaption>
 </figure>
 {% endif %}
 

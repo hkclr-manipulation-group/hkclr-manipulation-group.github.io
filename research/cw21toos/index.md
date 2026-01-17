@@ -1,9 +1,8 @@
 ---
 title: "Tele-Operated Oropharyngeal Swab (TOOS) Robot Enabled by TSS Soft Hand for Safe and Effective Sampling"
 layout: paper
-permalink: /research/cw21toos/
 paper_id: doi:10.1109/TMRB.2021.3123530
-image: /images/research/cw21toos.png
+date: 2021-11-01
 
 authors:
   - Wei Chen
@@ -18,7 +17,6 @@ authors:
   - Yun-Hui Liu
 
 venue: IEEE Transactions on Medical Robotics and Bionics
-date: 2021-11-01
 ---
 
 {% assign paper = site.data.sources | where: "id", page.paper_id | first %}
@@ -43,9 +41,6 @@ date: 2021-11-01
 {% if paper.image %}
 <figure class="paper-figure">
   <img src="{{ paper.image | relative_url }}" alt="{{ paper.title }}">
-  <figcaption>
-    Tele-operated oropharyngeal swab robot enabled by a TSS soft hand for safe COVID‑19 sampling.
-  </figcaption>
 </figure>
 {% endif %}
 

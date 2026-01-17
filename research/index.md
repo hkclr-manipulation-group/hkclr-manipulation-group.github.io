@@ -5,11 +5,11 @@ nav:
   tooltip: Published works
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %} Research
+# Research
 
 Our research focuses on vision-based robotic manipulation, embodied AI, and
 learning-based control for real-world robotic systems.
-We aim to develop robotic systems that can perceive, reason, and interactmarkdown="0"
+We aim to develop robotic systems that can perceive, reason, and interact
 robustly with complex and unstructured environments.
 
 {% include section.html %}
@@ -36,7 +36,6 @@ robustly with complex and unstructured environments.
 
   <!-- left image column -->
   <div style="width:180px; flex:0 0 180px;">
-    {% if paper.image %}
     <div style="
       width:180px;
       height:100px;
@@ -52,7 +51,6 @@ robustly with complex and unstructured environments.
         style="max-width:100%; max-height:100%; object-fit:contain;"
       >
     </div>
-    {% endif %}
   </div>
 
   <!-- right text column -->
@@ -102,9 +100,8 @@ robustly with complex and unstructured environments.
   width:100%;
 ">
 
-  <!-- left fixed image slot (always occupies space) -->
+  <!-- left fixed image slot -->
   <div style="width:120px; flex:0 0 120px; margin-right:1rem;">
-    {% if paper.image %}
     <div style="
       width:120px;
       height:90px;
@@ -115,15 +112,14 @@ robustly with complex and unstructured environments.
       justify-content:center;
     ">
       <img
-        src="{{ paper.image | default: '/images/research/photo.jpg' | relative_url }}"
+        src="{{ paper.image | relative_url }}"
         alt="{{ paper.title }}"
         style="max-width:100%; max-height:100%; object-fit:contain;"
       >
     </div>
-    {% endif %}
   </div>
 
-  <!-- right text column (perfect alignment) -->
+  <!-- right text column -->
   <div>
     <div style="font-size:1rem; font-weight:500; margin-bottom:0.3rem;">
       <a href="{{ link }}" style="color:#1a73e8; text-decoration:none;">

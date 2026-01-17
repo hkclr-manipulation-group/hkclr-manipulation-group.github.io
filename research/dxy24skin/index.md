@@ -3,7 +3,6 @@ title: "A Robotic Skin Using Low-density FBGs for Human-robot Interaction"
 layout: paper
 permalink: /research/robio24-skin/
 paper_id: doi:10.1109/ROBIO64047.2024.10907681
-#image: /images/research/robio24_skin.png
 authors:
   - Xiyue Dong
   - Chin-Kiu Lam

@@ -3,7 +3,6 @@ title: "Adaptive FOV Control of Laparoscopes with Programmable Composed Constrai
 layout: paper
 permalink: /research/ybh19fov/
 paper_id: doi:10.1109/TMRB.2019.2949881
-image: /images/research/ybh19fov.png
 
 authors:
   - Bohan Yang
@@ -64,13 +63,6 @@ in minimally invasive surgery.
 </p>
 
 <h2>Method Overview</h2>
-
-<figure class="paper-figure">
-  <img src="/images/research/ybh19fov_pipeline.png" alt="Algorithm pipeline">
-  <figcaption>
-    Overall pipeline of adaptive region-based FOV control with RCM–IVP constraints.
-  </figcaption>
-</figure>
 
 <p>
 The proposed controller decouples the image-based visual servoing task
