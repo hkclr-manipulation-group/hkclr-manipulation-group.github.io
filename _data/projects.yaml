@@ -1,31 +1,65 @@
 - title: Mobile Dual-arm Manipulation Platform
   subtitle: Coordinated bimanual manipulation on a mobile base
   group: featured
-  image: images/dual-arm.png
+  image: /images/projects/dual-arm.png
   link: https://github.com/CURI-Simulation-and-Software-Group
   description: >
-    A mobile dual-arm robotic system designed for coordinated bimanual
-    manipulation, combining a lightweight mobile base with two collaborative
-    robot arms to enable dexterous manipulation in unstructured environments.
-  #repo: https://github.com/CURI-Simulation-and-Software-Group
+    A mobile dual-arm robotic platform designed for coordinated bimanual
+    manipulation. The system integrates a lightweight mobile base with two
+    collaborative robotic arms, enabling robust and dexterous manipulation
+    in unstructured and dynamic environments.
   tags:
     - mobile manipulation
     - dual-arm robots
     - bimanual manipulation
-    - robotics systems
+    - robotic systems
+
 
 - title: Lightweight Robotic Arm
-  subtitle: High payload-to-weight ratio for mobile platforms
+  subtitle: High payload-to-weight ratio for mobile manipulation
   group: featured
-  image: images/single-arm.png
+  image: /images/projects/single-arm.png
   link: https://github.com/CURI-Simulation-and-Software-Group
   description: >
-    A lightweight robotic arm optimized for mobile manipulation applications,
-    offering a high payload-to-weight ratio, compliant actuation, and safe
-    human-robot interaction for service and medical robotics.
-  # repo: greenelab/lab-website-template
+    A lightweight robotic arm optimized for mobile manipulation scenarios.
+    The arm features a high payload-to-weight ratio, compliant actuation,
+    and intrinsic safety, making it suitable for service, logistics,
+    and medical robotic applications.
   tags:
     - lightweight robots
     - robotic arms
     - compliant actuation
-    - mobile robotics
+
+
+- title: Embodied AI
+  subtitle: Embodied intelligence with VLMs and VLA policies
+  group: featured
+  image: /images/projects/embodied-ai.png
+  link: https://github.com/CURI-Simulation-and-Software-Group
+  description: >
+    An embodied AI framework that integrates vision-language models (VLMs)
+    for high-level task understanding and decomposition, with
+    vision-language-action (VLA) policies for dynamic interaction.
+    The framework bridges semantic reasoning and low-level robot control
+    for long-horizon manipulation tasks.
+  tags:
+    - embodied ai
+    - long-horizon manipulation
+    - dynamic interaction
+
+
+- title: High-speed Visual Servoing
+  subtitle: Real-time image-based control for dynamic robotic tasks
+  group: featured
+  image: /images/projects/visual-servoing.png
+  link: https://robot-chenwei.github.io
+  description: >
+    A high-speed visual servoing framework for real-time robotic control
+    under dynamic and uncertain environments. The approach focuses on
+    low-latency perception, adaptive Jacobian estimation, and closed-loop
+    stability for precision manipulation tasks.
+  tags:
+    - visual servoing
+    - real-time control
+    - adaptive control
+    - robotic perception

@@ -6,13 +6,18 @@ role: Postdoctoral Fellow
 affiliation: Hong Kong Centre for Logistics Robotics, CUHK T Stone Robotics Institute
 aliases:
   - W. Chen
-links:
+
+social:
   - label: Website
+    icon: fas fa-globe
     url: https://robot-chenwei.github.io
+  - label: Google Scholar
+    icon: ai ai-google-scholar
+    url: https://scholar.google.com/citations?user=JSQtoMEAAAAJ&hl=en
   - label: ORCID
+    icon: ai ai-orcid
     url: https://orcid.org/0000-0002-9065-3771
 ---
-
 
 ## Biography
 
@@ -23,6 +28,7 @@ Wei Chen received the M.S. and Ph.D. degrees in Mechanical and Automation Engine
 - Visual servoing
 - Medical robotics
 - Learning-based control
+- Embodied AI
 
 ## Publications
 
