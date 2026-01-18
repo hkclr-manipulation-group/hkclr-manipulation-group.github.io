@@ -15,69 +15,79 @@ robustly with complex and unstructured environments.
 {% include section.html %}
 
 <style>
-/* ===== Bigger & Airier Research Cards (override) ===== */
+/* ===== Research Card Layout ===== */
 
-.research-card{
-  padding: 1.25rem 1.5rem;     /* 更大内边距 */
-  margin-bottom: 1.25rem;      /* 卡片之间更松 */
-  border-radius: 12px;         /* 更圆润 */
-  gap: 1.25rem;                /* 图和文字间距更大 */
+.research-card {
+  background: #f6f8fa;
+  padding: 1rem 1.2rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+
+  display: flex;
   align-items: flex-start;
+  gap: 1rem;
+
+  width: 100%;
+  text-align: left;
 }
 
-.research-thumb{
-  width: 160px;                /* 缩略图更大 */
-  flex: 0 0 160px;
+.research-thumb {
+  width: 120px;
+  flex: 0 0 120px;
 }
 
-.research-thumb-box{
-  width: 160px;
-  height: 120px;               /* 更高一点更协调 */
-  border-radius: 10px;
+.research-thumb-box {
+  width: 150px;
+  height: 90px;
+  background: #ffffff;
+  border-radius: 6px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.research-title{
-  font-size: 1.22rem;          /* 标题更大 */
-  font-weight: 650;
-  margin-bottom: 0.45rem;
-  line-height: 1.35;
+.research-thumb-box img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }
 
-.research-authors{
-  font-size: 1.02rem;          /* 作者更大 */
-  line-height: 1.55;           /* 文字不“拖/挤” */
-  color: #222;
+.research-meta {
+  flex: 1;
 }
 
-.research-venue{
-  font-size: 0.95rem;          /* venue 更大 */
-  line-height: 1.45;
-  margin-top: 0.25rem;
-  color: #555;
+.research-title {
+  font-size: 1.05rem;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
 }
 
-/* 链接更清晰 + hover */
-.research-title a{
-  color: #1a73e8 !important;
-  text-decoration: none !important;
-}
-.research-title a:hover{
-  text-decoration: underline !important;
+.research-authors {
+  font-size: 0.9rem;
+  color: #333;
 }
 
-/* ===== Mobile: still comfy ===== */
-@media (max-width: 768px){
-  .research-card{
-    padding: 1.1rem 1.2rem;
-    gap: 0.9rem;
+.research-venue {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.1rem;
+}
+
+/* ===== Mobile: stack vertically ===== */
+@media (max-width: 768px) {
+  .research-card {
+    flex-direction: column;
   }
+
   .research-thumb,
-  .research-thumb-box{
+  .research-thumb-box {
     width: 100%;
   }
-  .research-thumb-box{
+
+  .research-thumb-box {
     height: auto;
-    padding: 0.75rem 0;
+    padding: 0.5rem 0;
   }
 }
 </style>
