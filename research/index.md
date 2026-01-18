@@ -32,13 +32,13 @@ robustly with complex and unstructured environments.
 }
 
 .research-thumb {
-  width: 120px;
+  width: 150px;
   flex: 0 0 120px;
 }
 
 .research-thumb-box {
-  width: 150px;
-  height: 90px;
+  width: 130px;
+  height: 100px;
   background: #ffffff;
   border-radius: 6px;
 
