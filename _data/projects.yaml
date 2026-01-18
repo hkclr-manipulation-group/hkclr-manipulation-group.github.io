@@ -1,4 +1,4 @@
-- title: Mobile Dual-arm Manipulation Platform
+- title: Mobile Dual-Arm Manipulation Platform
   subtitle: Coordinated bimanual manipulation on a mobile base
   group: featured
   image: /images/projects/dual-arm.png
@@ -12,7 +12,6 @@
     - mobile manipulation
     - dual-arm robots
     - bimanual manipulation
-
 
 - title: Lightweight Robotic Arm
   subtitle: High payload-to-weight ratio for mobile manipulation
@@ -29,35 +28,33 @@
     - robotic arms
     - compliant actuation
 
-
-- title: Embodied AI
+- title: Embodied AI on Dual-Arm System
   subtitle: Embodied intelligence with VLMs and VLA policies
   group: featured
   image: /images/projects/embodied-ai.png
-  link: https://github.com/hkclr-manipulation-group/embodied-ai-on-dual-arm-v1
+  link: /projects/embodied-ai-on-dual-arm-v1/
   description: >
-    An embodied AI framework that integrates vision-language models (VLMs)
-    for high-level task understanding and decomposition, with
-    vision-language-action (VLA) policies for dynamic interaction.
+    An embodied AI framework that integrates vision–language models (VLMs)
+    for high-level task understanding and long-horizon planning, together
+    with vision–language–action (VLA) policies for dynamic interaction.
     The framework bridges semantic reasoning and low-level robot control
-    for long-horizon manipulation tasks.
+    for dual-arm manipulation tasks.
   tags:
     - embodied ai
-    - long-horizon task
-    - dynamic interaction
+    - long-horizon planning
+    - vision-language-action
 
-
-- title: High-speed Visual Servoing
+- title: High-Speed Visual Servoing
   subtitle: Real-time image-based control for dynamic robotic tasks
   group: featured
   image: /images/projects/visual-servoing.png
   link: https://robot-chenwei.github.io
   description: >
     A high-speed visual servoing framework for real-time robotic control
-    under dynamic and uncertain environments. The approach focuses on
+    in dynamic and uncertain environments. The approach emphasizes
     low-latency perception, adaptive Jacobian estimation, and closed-loop
     stability for precision manipulation tasks.
   tags:
     - visual servoing
     - real-time control
-    - fast reaction
+    - adaptive control
