@@ -1,6 +1,6 @@
 ---
 name: Qiwei Meng
-image: images/photo.jpg
+image: images/members/william.jpg
 description: Phd Student
 role: phd
 affiliation: Hong Kong Centre for Logistics Robotics, CUHK T Stone Robotics Institute
