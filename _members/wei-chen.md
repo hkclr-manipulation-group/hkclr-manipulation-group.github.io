@@ -9,16 +9,17 @@ affiliation: >
 aliases:
   - W. Chen
 
-social:
+links:
   - label: Website
     icon: fas fa-globe
     url: https://robot-chenwei.github.io
   - label: Google Scholar
     icon: ai ai-google-scholar
-    url: https://scholar.google.com/citations?user=JSQtoMEAAAAJ&hl=en
+    url: https://scholar.google.com/citations?user=JSQtoMEAAAAJ
   - label: ORCID
     icon: ai ai-orcid
     url: https://orcid.org/0000-0002-9065-3771
+
 ---
 
 ## Biography
