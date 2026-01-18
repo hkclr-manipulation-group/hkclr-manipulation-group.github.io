@@ -12,7 +12,6 @@
     - mobile manipulation
     - dual-arm robots
     - bimanual manipulation
-    - robotic systems
 
 
 - title: Lightweight Robotic Arm
@@ -35,7 +34,7 @@
   subtitle: Embodied intelligence with VLMs and VLA policies
   group: featured
   image: /images/projects/embodied-ai.png
-  link: https://github.com/CURI-Simulation-and-Software-Group
+  link: https://github.com/hkclr-manipulation-group/embodied-ai-on-dual-arm-v1
   description: >
     An embodied AI framework that integrates vision-language models (VLMs)
     for high-level task understanding and decomposition, with
@@ -44,7 +43,7 @@
     for long-horizon manipulation tasks.
   tags:
     - embodied ai
-    - long-horizon manipulation
+    - long-horizon task
     - dynamic interaction
 
 
@@ -61,5 +60,4 @@
   tags:
     - visual servoing
     - real-time control
-    - adaptive control
-    - robotic perception
+    - fast reaction
