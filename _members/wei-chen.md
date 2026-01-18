@@ -10,9 +10,6 @@ aliases:
   - W. Chen
 
 links:
-  - label: Website
-    icon: fas fa-globe
-    url: https://robot-chenwei.github.io
   - label: Google Scholar
     icon: ai ai-google-scholar
     url: https://scholar.google.com/citations?user=JSQtoMEAAAAJ
