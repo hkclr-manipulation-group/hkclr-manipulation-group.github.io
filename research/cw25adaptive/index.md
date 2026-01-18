@@ -4,6 +4,15 @@ layout: paper
 paper_id: doi:10.1109/RCAR65431.2025.11139652
 date: 2025-01-01
 image: /photo.png
+
+authors:
+  - Wei Chen
+  - Haiwen Wu
+  - Bohan Yang
+  - Jinfei Hu
+  - Yun-Hui Liu
+
+venue: IEEE International Conference on Real-time Computing and Robotics (RCAR)
 ---
 
 {% assign paper = site.data.sources | where: "id", page.paper_id | first %}
@@ -68,7 +77,7 @@ image: /photo.png
 
   <p style="margin-top: 1rem; font-size: 0.95rem; color: #555; line-height: 1.5;">
     Simulation results of flexible robot control.
-    The first row shows the three-DoFs flexible robot, and the second row shows the
+    The first figure shows the three-DoFs flexible robot, and the second one shows the
     two-DoFs flexible robot.
     For each case, we compare the image trajectory and image error obtained by the
     proposed method and the classical model-based approach, demonstrating improved

@@ -1,8 +1,13 @@
 - id: doi:10.1109/RCAR65431.2025.11139652
   title: Adaptive Vision-Based Control for Flexible Robot with Unknown Environmental
     Constraints
-  authors: []
-  publisher: null
+  authors:
+  - Wei Chen
+  - Haiwen Wu
+  - Bohan Yang
+  - Jinfei Hu
+  - Yun-Hui Liu
+  publisher: IEEE International Conference on Real-time Computing and Robotics (RCAR)
   date: 2025-01-01
   image: /research/cw25adaptive/photo.png
   type: paper
