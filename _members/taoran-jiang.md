@@ -1,10 +1,10 @@
 ---
 name: Taoran Jiang
-image: images/photo.jpg
+image: images/trjiang.jpg
 description: Phd Student
 role: phd
 affiliation: Hong Kong Centre for Logistics Robotics, CUHK T Stone Robotics Institute
 links:
-  email: gangwang@link.cuhk.edu.hk
+  email: 1155253860@link.cuhk.edu.hk
 ---
 
