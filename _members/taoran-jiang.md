@@ -1,6 +1,6 @@
 ---
 name: Taoran Jiang
-image: images/trjiang.jpg
+image: images/memebers/trjiang.jpg
 description: Phd Student
 role: phd
 affiliation: Hong Kong Centre for Logistics Robotics, CUHK T Stone Robotics Institute
