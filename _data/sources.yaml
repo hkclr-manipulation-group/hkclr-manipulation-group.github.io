@@ -39,6 +39,22 @@
   image: /research/ybh23modelfree/photo.png
   type: paper
   link: https://doi.org/10.1109/TRO.2023.3269347
+- id: doi:10.1109/ICCA62789.2024.10591885
+  title: Intuitive Teleoperation Control for Flexible Robotic Endoscopes Under Unknown
+    Environmental Interferences
+  authors:
+  - Wei Chen
+  - Yiang Lu
+  - Bin Li
+  - Jianshu Zhou
+  - Hanwen Cao
+  - Fei Chen
+  - Yun-Hui Liu
+  publisher: 2024 IEEE 18th International Conference on Control & Automation (ICCA)
+  date: 2024-06-01
+  image: /research/cw24intuitive/photo.png
+  type: paper
+  link: https://doi.org/10.1109/ICCA62789.2024.10591885
 - id: doi:10.1109/TMRB.2019.2949881
   title: Adaptive FOV Control of Laparoscopes with Programmable Composed Constraints
   authors:
