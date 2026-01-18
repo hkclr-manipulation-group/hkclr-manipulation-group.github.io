@@ -7,20 +7,20 @@
   <title>Tele-Operated Oropharyngeal Swab (TOOS) Robot Enabled by TSS Soft Hand for Safe and Effective Sampling</title>
 
   <style>
-    /* ===== Paper Layout (INLINE, NO BUILD) ===== */
+    /* ===== Base Paper Layout ===== */
 
     body {
       margin: 0;
       font-family: -apple-system, BlinkMacSystemFont,
                    "Segoe UI", Roboto, Arial, sans-serif;
       color: #1f2328;
+      background: #ffffff;
     }
 
     .paper-page {
       display: flex;
       justify-content: center;
       width: 100%;
-      background: #fff;
     }
 
     .paper-container {
@@ -42,10 +42,35 @@
       margin-bottom: 0.6rem;
     }
 
+    .paper-authors {
+      font-size: 1.05rem;
+      margin-bottom: 0.4rem;
+    }
+
     .paper-venue {
       color: #6a737d;
       margin-bottom: 1.2rem;
     }
+
+    /* ===== Paper Links (VGGT style) ===== */
+
+    .paper-links a {
+      display: inline-block;
+      margin: 0 0.4rem;
+      padding: 0.45rem 0.9rem;
+      border: 1px solid #1f2328;
+      border-radius: 6px;
+      text-decoration: none;
+      color: #1f2328;
+      font-weight: 500;
+      font-size: 0.95rem;
+    }
+
+    .paper-links a:hover {
+      background: #f3f4f6;
+    }
+
+    /* ===== Hero / Teaser Image ===== */
 
     .paper-figure {
       margin: 2.5rem 0;
@@ -54,45 +79,69 @@
 
     .paper-figure img {
       max-width: 100%;
-      border-radius: 6px;
+      border-radius: 8px;
+    }
+
+    /* ===== Sections ===== */
+
+    .paper-section h2 {
+      margin-top: 3rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid #e5e7eb;
     }
 
     .paper-abstract {
       max-width: 70ch;
-      margin: 0 auto;
+      margin: 1rem auto 0;
       text-align: justify;
     }
 
-   /* ===== Research Item Layout ===== */
+    /* ===== Image Grid (Results / Qualitative) ===== */
 
-.research-item {
-  display: flex;
-  align-items: flex-start;
-  gap: 1.2rem;
-  margin: 2rem 0;
-}
+    .paper-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+      justify-items: center;
+    }
 
-.research-image {
-  width: 200px;
-  max-width: 100%;
-  border-radius: 6px;
-  flex-shrink: 0;
-}
+    .paper-grid figure {
+      margin: 0;
+      text-align: center;
+      width: 100%;
+    }
 
-.research-info {
-  flex: 1;
-}
+    .paper-grid img {
+      width: 100%;
+      max-width: 100%;
+      border-radius: 6px;
+    }
 
-/* ===== Mobile: stack vertically ===== */
-@media (max-width: 768px) {
-  .research-item {
-    flex-direction: column;
-  }
+    .paper-grid figcaption {
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+      color: #555;
+      line-height: 1.4;
+    }
 
-  .research-image {
-    width: 100%;
-  }
-}
+    /* ===== BibTeX ===== */
+
+    .paper-bibtex {
+      background: #f6f8fa;
+      padding: 1rem;
+      font-size: 0.9rem;
+      overflow-x: auto;
+      border-radius: 6px;
+    }
+
+    /* ===== Mobile ===== */
+
+    @media (max-width: 768px) {
+      .paper-container {
+        padding: 2rem 1.2rem;
+      }
+    }
   </style>
 </head>
 
