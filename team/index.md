@@ -49,6 +49,7 @@ models, vision-language models, and both model-based and model-free control meth
 {% include list.html data="members" component="portrait" filter="name == 'Siyuan Yang'" %}
 {% include list.html data="members" component="portrait" filter="name == 'Shenghui Liu'" %}
 {% include list.html data="members" component="portrait" filter="name == 'Dingtong Xiao'" %}
+{% include list.html data="members" component="portrait" filter="name == 'Wenzhen Dong'" %}
 {% include list.html data="members" component="portrait" filter="name == 'Weixing Guo'" %}
 {% include list.html data="members" component="portrait" filter="name == 'Zelong Chen'" %}
 
