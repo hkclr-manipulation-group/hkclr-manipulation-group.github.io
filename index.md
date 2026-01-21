@@ -1,5 +1,3 @@
----
-
 Based at the [Hong Kong Centre for Logistics Robotics (HKCLR)](https://www.hkclr.hk/),
 the Manipulation Group conducts research on advanced robotic manipulation systems.
 Our work spans lightweight robotic arms and mobile dual-arm platforms, with a strong
