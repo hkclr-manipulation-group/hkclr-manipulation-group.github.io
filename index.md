@@ -1,14 +1,21 @@
 ---
----
 
 {% include section.html %}
 
+Based at the
+[Hong Kong Centre for Logistics Robotics (HKCLR)](https://www.hkclr.hk/),
+the Manipulation Group conducts research on advanced robotic manipulation systems.
+Our work spans lightweight robotic arms and mobile dual-arm platforms, with a strong
+emphasis on intelligent control and autonomy. We explore both model-based and
+learning-based approaches, including vision-language-action models and data-driven
+control frameworks.
+
 {% capture text %}
 
-We are the HKCLR Manipulation Group, focusing on intelligent robotic manipulation,
-visual servoing, and medical and continuum robotics. Our research aims to enable
-robots to operate robustly in complex, constrained, and unstructured environments
-through principled control, learning, and perception.
+Our research investigates how robots can achieve reliable manipulation in
+unstructured, constrained, and contact-rich environments. By integrating control
+theory, machine learning, and perception, we aim to endow robotic systems with
+robust decision-making and adaptive interaction capabilities.
 
 {%
   include button.html
@@ -31,9 +38,10 @@ through principled control, learning, and perception.
 
 {% capture text %}
 
-We develop robotic systems and algorithms spanning medical robotics, soft and
-continuum robots, and data-driven control. Our projects integrate hardware design,
-model-based methods, and learning-based approaches to address real-world challenges.
+We design and build complete robotic systems, covering areas such as medical
+robotics, soft and continuum manipulators, and data-driven control.
+Our projects tightly couple hardware development with principled modeling
+and learning-based algorithms to address real-world deployment challenges.
 
 {%
   include button.html
@@ -58,9 +66,10 @@ model-based methods, and learning-based approaches to address real-world challen
 
 {% capture text %}
 
-Our team consists of researchers, and students with diverse backgrounds
-in robotics, control, and artificial intelligence. We collaborate closely across
-disciplines to translate research into impactful robotic systems.
+Our group brings together researchers and students with complementary expertise
+in robotics, control, and artificial intelligence. Through close collaboration
+across disciplines, we translate fundamental research into practical and impactful
+robotic systems.
 
 {%
   include button.html
@@ -80,4 +89,3 @@ disciplines to translate research into impactful robotic systems.
   title="Our Team"
   text=text
 %}
-
