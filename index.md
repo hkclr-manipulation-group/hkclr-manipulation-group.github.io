@@ -1,4 +1,6 @@
 ---
+---
+
 Based at the [Hong Kong Centre for Logistics Robotics (HKCLR)](https://www.hkclr.hk/),
 the Manipulation Group works at the intersection of fundamental research and real-world robotic products. We develop advanced manipulation systems ranging from lightweight robotic arms to mobile dual-arm platforms, with a focus on autonomy, robustness, and deployability. Our approach combines model-based methods with learning-driven techniques, including vision-language-action models and data-driven control, to bridge the gap between laboratory research and practical applications.
 
