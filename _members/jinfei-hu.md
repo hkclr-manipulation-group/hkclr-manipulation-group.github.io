@@ -3,7 +3,7 @@ name: Jinfei Hu
 image: images/photo.jpg
 description: Postdoctoral Fellow
 role: postdoc
-affiliation: Hong Kong Centre for Logistics Robotics, CUHK T Stone Robotics Institute
+# affiliation: Hong Kong Centre for Logistics Robotics, CUHK T Stone Robotics Institute
 links:
   email: jfhui@hkclr.hk
 ---

@@ -3,9 +3,7 @@ name: Yun-Hui LIU
 image: images/members/yunhui-liu.png
 description: Professor, Director
 role: pi
-affiliation: >
-  Hong Kong Centre for Logistics Robotics<br>
-  CUHK T Stone Robotics Institute
+# affiliation: Hong Kong Centre for Logistics Robotics; CUHK T Stone Robotics Institute
 links:
   email: yhliu@cuhk.edu.hk
 ---
