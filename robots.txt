@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://hkclr-manipulation-group.github.io/sitemap.xml
