@@ -1,1 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://hkclr-manipulation-group.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hkclr-manipulation-group.github.io/" rel="alternate" type="text/html" /><updated>2026-01-24T13:15:17+00:00</updated><id>https://hkclr-manipulation-group.github.io/feed.xml</id><title type="html">HKCLR Manipulation Group</title><subtitle>An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.</subtitle><entry><title type="html">Example post 3</title><link href="https://hkclr-manipulation-group.github.io/2026/01/24/post-1.html" rel="alternate" type="text/html" title="Example post 3" /><published>2026-01-24T00:00:00+00:00</published><updated>2026-01-24T13:14:42+00:00</updated><id>https://hkclr-manipulation-group.github.io/2026/01/24/post-1</id><content type="html" xml:base="https://hkclr-manipulation-group.github.io/2026/01/24/post-1.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>]]></content><author><name>john-doe</name></author><category term="biology," /><category term="medicine" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://hkclr-manipulation-group.github.io/images/photo.jpg" /><media:content medium="image" url="https://hkclr-manipulation-group.github.io/images/photo.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2026-01-24T13:17:14+00:00</updated><id>/feed.xml</id><title type="html">HKCLR Manipulation Group</title><subtitle>An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.</subtitle><entry><title type="html">Join the Manipulation Group @ HKCLR</title><link href="/2026/01/24/post-1.html" rel="alternate" type="text/html" title="Join the Manipulation Group @ HKCLR" /><published>2026-01-24T00:00:00+00:00</published><updated>2026-01-24T13:16:58+00:00</updated><id>/2026/01/24/post-1</id><content type="html" xml:base="/2026/01/24/post-1.html"><![CDATA[<p>The <strong>Manipulation Group</strong> at the <strong>Hong Kong Centre for Logistics Robotics (HKCLR)</strong> is recruiting highly motivated students and researchers to join our team.</p>
+
+<p>Our group works at the intersection of <strong>fundamental robotics research</strong> and <strong>real-world robotic products</strong>, with a strong focus on developing <strong>robust, autonomous, and deployable manipulation systems</strong>. We design and build advanced robotic platforms ranging from <strong>lightweight robotic arms</strong> to <strong>mobile dual-arm systems</strong>, targeting manipulation tasks in <strong>unstructured and contact-rich environments</strong>.</p>
+
+<p>Our research philosophy emphasizes the tight integration of <strong>model-based methods</strong> and <strong>learning-driven techniques</strong>. This includes physics-based modeling and control, data-driven and learning-based manipulation, as well as emerging <strong>vision–language–action (VLA)</strong> and multimodal perception frameworks. By combining mechanical design, sensing, control, and AI, we aim to bridge the gap between laboratory research and practical robotic deployment.</p>
+
+<h3 id="open-positions">Open Positions</h3>
+
+<p>We welcome applications from:</p>
+<ul>
+  <li><strong>Robotics engineers</strong></li>
+  <li><strong>Research assistants</strong></li>
+  <li><strong>Research interns</strong></li>
+</ul>
+
+<p>Candidates with interests or experience in the following areas are especially encouraged to apply:</p>
+<ul>
+  <li>Robotic manipulation and control</li>
+  <li>Mobile manipulation and dual-arm systems</li>
+  <li>Vision-based and multimodal perception</li>
+  <li>Learning-based control, imitation learning, and reinforcement learning</li>
+  <li>System integration and real-world experimentation</li>
+</ul>
+
+<h3 id="what-we-offer">What We Offer</h3>
+
+<ul>
+  <li>Access to <strong>state-of-the-art robotic platforms and facilities</strong></li>
+  <li>Opportunities to work on <strong>cutting-edge research projects</strong> with real-world impact</li>
+  <li>A collaborative research environment combining <strong>theory, algorithms, and hardware</strong></li>
+  <li>Strong support for <strong>academic publications</strong> and <strong>technology transfer</strong></li>
+</ul>
+
+<p>If you are interested in joining us or would like to learn more, please feel free to reach out or follow our future updates on this blog.</p>
+
+<hr />]]></content><author><name>wei-chen</name></author><category term="robotics," /><category term="manipulation," /><category term="recruitment," /><category term="embodied-ai" /><summary type="html"><![CDATA[The Manipulation Group at the Hong Kong Centre for Logistics Robotics (HKCLR) is recruiting highly motivated students and researchers to join our team.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/photo.jpg" /><media:content medium="image" url="/images/photo.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
