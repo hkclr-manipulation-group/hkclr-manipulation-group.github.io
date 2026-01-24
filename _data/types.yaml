@@ -94,29 +94,29 @@ github:
   tooltip: GitHub
   link: https://github.com/$VALUE
 
-twitter:
-  icon: fa-brands fa-twitter
-  text: Twitter
-  tooltip: Twitter
-  link: https://twitter.com/$VALUE
+# twitter:
+#   icon: fa-brands fa-twitter
+#   text: Twitter
+#   tooltip: Twitter
+#   link: https://twitter.com/$VALUE
 
-bluesky:
-  icon: fa-brands fa-bluesky
-  text: Bluesky
-  tooltip: Bluesky
-  link: https://bsky.app/profile/$VALUE
+# bluesky:
+#   icon: fa-brands fa-bluesky
+#   text: Bluesky
+#   tooltip: Bluesky
+#   link: https://bsky.app/profile/$VALUE
 
-facebook:
-  icon: fa-brands fa-facebook
-  text: Facebook
-  tooltip: Facebook
-  link: https://facebook.com/$VALUE
+# facebook:
+#   icon: fa-brands fa-facebook
+#   text: Facebook
+#   tooltip: Facebook
+#   link: https://facebook.com/$VALUE
 
-instagram:
-  icon: fa-brands fa-instagram
-  text: Instagram
-  tooltip: Instagram
-  link: https://instagram.com/$VALUE
+# instagram:
+#   icon: fa-brands fa-instagram
+#   text: Instagram
+#   tooltip: Instagram
+#   link: https://instagram.com/$VALUE
 
 youtube:
   icon: fa-brands fa-youtube
@@ -124,11 +124,11 @@ youtube:
   tooltip: YouTube
   link: https://youtube.com/$VALUE
 
-linkedin:
-  icon: fa-brands fa-linkedin
-  text: LinkedIn
-  tooltip: LinkedIn
-  link: https://www.linkedin.com/in/$VALUE
+# linkedin:
+#   icon: fa-brands fa-linkedin
+#   text: LinkedIn
+#   tooltip: LinkedIn
+#   link: https://www.linkedin.com/in/$VALUE
 
 # alerts
 
