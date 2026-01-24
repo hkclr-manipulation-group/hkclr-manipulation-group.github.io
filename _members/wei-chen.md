@@ -3,18 +3,18 @@ name: Wei Chen
 image: images/members/wei-chen.png
 description: Postdoctoral Fellow
 role: team-leader
-# affiliation: Hong Kong Centre for Logistics Robotics; CUHK T Stone Robotics Institute
+affiliation: Hong Kong Centre for Logistics Robotics; CUHK T Stone Robotics Institute
 aliases:
   - W. Chen
 
 links:
-  - text: Scholar
+  - label: Google Scholar
     icon: fa-brands fa-google
     url: https://scholar.google.com/citations?user=JSQtoMEAAAAJ
-  - text: Github
+  - label: Github
     icon: fa-brands fa-github
     url: https://github.com/robot-chenwei
-  - text: Email
+  - label: Email
     icon: fa-solid fa-envelope
     url: hwchen@hkclr.hk
 
