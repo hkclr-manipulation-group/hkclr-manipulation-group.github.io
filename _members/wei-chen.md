@@ -33,6 +33,8 @@ His research interests include medical robotics, soft and continuum robotics, an
 - Learning-based control  
 - Embodied AI   -->
 
+{% include section.html %}
+
 ## Publications
 
 {% include citation.html lookup="author:Wei Chen" style="rich" %}
