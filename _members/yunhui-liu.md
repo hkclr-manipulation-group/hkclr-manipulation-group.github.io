@@ -5,7 +5,12 @@ description: Professor, Director
 role: pi
 # affiliation: Hong Kong Centre for Logistics Robotics; CUHK T Stone Robotics Institute
 links:
-  email: yhliu@cuhk.edu.hk
+  - label: Google Scholar
+    icon: fa-brands fa-google
+    url: https://scholar.google.com/citations?user=JSQtoMEAAAAJ
+  # - label: Website
+  #   icon: fa-brands fa-web
+  #   url: https://www4.mae.cuhk.edu.hk/peoples/liu-yun-hui/
 ---
 
 ## Biography
