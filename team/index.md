@@ -35,13 +35,13 @@ Our research aims to enable robots to operate robustly in complex, constrained, 
 
 ## Engineers
 {% include list.html data="members" component="portrait" filter="name == 'Dickson'" %}
-{% include list.html data="members" component="portrait" filter="name == 'Huanfeng Huang'" %}
-{% include list.html data="members" component="portrait" filter="name == 'Bingnan Liang'" %}
-{% include list.html data="members" component="portrait" filter="name == 'Shengjia Song'" %}
+{% include list.html data="members" component="portrait" filter="name == 'Gaoyang Li'" %}
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filter="name == 'Gaoyang Li'" %}
+{% include list.html data="members" component="portrait" filter="name == 'Huanfeng Huang'" %}
+{% include list.html data="members" component="portrait" filter="name == 'Bingnan Liang'" %}
+{% include list.html data="members" component="portrait" filter="name == 'Shengjia Song'" %}
 
 {% include section.html %}
 
