@@ -5,10 +5,13 @@ nav:
   tooltip: Musings and miscellany
 ---
 
-# {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog
+# {% include icon.html icon="fa-solid fa-feather-pointed" %} Blog
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Welcome to the blog of the **Manipulation Group at the Hong Kong Centre for Logistics Robotics (HKCLR)**.
+
+Our research focuses on **robotic manipulation systems** that bridge **fundamental research** and **real-world deployment**. We develop platforms ranging from **lightweight robotic arms** to **mobile dual-arm systems**, with an emphasis on **autonomy, robustness, and deployability** in unstructured, contact-rich environments.
+
+Here we share research updates, technical notes, system design experiences, and perspectives on **model-based and learning-driven manipulation**, including vision–language–action approaches.
 
 {% include section.html %}
 
