@@ -8,13 +8,13 @@ aliases:
   - W. Chen
 
 links:
-  - label: Google Scholar
+  - text: Scholar
     icon: fa-brands fa-google
     url: https://scholar.google.com/citations?user=JSQtoMEAAAAJ
-  - label: Github
+  - text: Github
     icon: fa-brands fa-github
     url: https://github.com/robot-chenwei
-  - label: Email
+  - text: Email
     icon: fa-solid fa-envelope
     url: hwchen@hkclr.hk
 
