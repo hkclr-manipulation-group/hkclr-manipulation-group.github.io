@@ -7,10 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-Our projects span robotic manipulation, embodied AI, and
-data-driven control. We develop open-source software, hardware prototypes,
-and experimental platforms that translate theoretical advances into
-real-world robotic systems.
+Our projects span robotic manipulation, embodied AI, and data-driven control. We develop open-source software, hardware prototypes, and experimental platforms that translate theoretical advances into real-world robotic systems.
 
 {% include tags.html tags="publication, resource, website" %}
 
@@ -20,8 +17,7 @@ real-world robotic systems.
 
 ## Featured
 
-Highlighted projects that represent our core research directions and recent
-developments in robotic manipulation and medical robotics.
+Highlighted projects that represent our core research directions and recent developments in robotic manipulation and medical robotics.
 
 {% include list.html component="card" data="projects" filter="group == 'featured'" %}
 

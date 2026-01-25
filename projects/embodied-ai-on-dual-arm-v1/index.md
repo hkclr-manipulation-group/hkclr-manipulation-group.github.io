@@ -44,7 +44,7 @@ manipulation systems.
 - Vision–Language Model (VLM) Pipeline
 
 <center>
-  <img src="assets/vlm_preview.gif" width="60%" />
+  <img src="assets/vlm_preview.gif" width="80%" />
 </center>
 
 The **VLM pipeline** focuses on long-horizon, semantically guided manipulation
@@ -58,7 +58,7 @@ platform.
 - Vision–Language–Action (VLA) Pipeline
 
 <center>
-  <img src="assets/vla_preview.gif" width="60%" />
+  <img src="assets/vla_preview.gif" width="80%" />
 </center>
 
 The **VLA pipeline** targets dynamic and reactive object manipulation, such as
