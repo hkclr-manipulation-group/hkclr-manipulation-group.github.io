@@ -17,7 +17,7 @@
   subtitle: High payload-to-weight ratio for mobile manipulation
   group: featured
   image: /images/projects/single-arm.png
-  link: https://github.com/CURI-Simulation-and-Software-Group
+  link: https://github.com/hkclr-manipulation-group/low_cost_light_weight_arm
   description: >
     A lightweight robotic arm optimized for mobile manipulation scenarios.
     The arm features a high payload-to-weight ratio, compliant actuation,
