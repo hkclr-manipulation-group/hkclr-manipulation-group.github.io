@@ -3,33 +3,17 @@ layout: default
 title: Home
 ---
 
-# Embodied AI Robotics Platform
-
-Based at the [Hong Kong Centre for Logistics Robotics (HKCLR)](https://www.hkclr.hk/),  
-our team develops next-generation robotic systems that integrate **hardware, control, and artificial intelligence**.
-
-Our goal is to bridge the gap between **robotics research and real-world deployment**, enabling robust manipulation and autonomous interaction in complex environments.
-
----
-
-## Product Matrix Overview
+Based at the [Hong Kong Centre for Logistics Robotics (HKCLR)](https://www.hkclr.hk/), our team develops next-generation robotic systems that integrate **hardware, control, and artificial intelligence**. Our goal is to bridge the gap between **robotics research and real-world deployment**, enabling robust manipulation and autonomous interaction in complex environments.
 
 <img src="images/product_matrix.jpg" width="1000">
 
 Our embodied intelligence platform integrates **manipulation, perception, mobility, and AI**, enabling robots to operate in real-world environments.
-
----
-
-{% include section.html %}
-
----
 
 {% capture text %}
 
 We develop advanced robotic platforms for embodied intelligence.
 
 Our core product line includes:
-
 • Lightweight robotic arms  
 • Mobile dual-arm manipulation platforms  
 • Humanoid robots  
@@ -59,7 +43,6 @@ Our core product line includes:
 Our technology stack integrates **perception, control, and AI** to enable robust robotic manipulation.
 
 Core technologies include:
-
 • Visual perception and 3D vision  
 • Robot kinematics and force control  
 • Motion planning and navigation  
