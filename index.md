@@ -1,17 +1,54 @@
 ---
+layout: default
+title: Home
 ---
 
-Based at the [Hong Kong Centre for Logistics Robotics (HKCLR)](https://www.hkclr.hk/),
-the Manipulation Group works at the intersection of fundamental research and real-world robotic products. We develop advanced manipulation systems ranging from lightweight robotic arms to mobile dual-arm platforms, with a focus on autonomy, robustness, and deployability. Our approach combines model-based methods with learning-driven techniques, including vision-language-action models and data-driven control, to bridge the gap between laboratory research and practical applications.
+# Embodied AI Robotics Platform
+
+We develop next-generation robotic systems integrating **AI, control, and hardware**.
+
+---
+
+## Product Matrix Overview
+
+<img src="images/product_matrix.jpg" width="1000">
+
+Our platform integrates manipulation, perception, mobility, and AI.
+
+---
 
 {% include section.html %}
 
 {% capture text %}
 
-Our research investigates how robots can achieve reliable manipulation in
-unstructured, constrained, and contact-rich environments. By integrating control
-theory, machine learning, and perception, we aim to endow robotic systems with
-robust decision-making and adaptive interaction capabilities.
+We develop complete robotic systems including:
+
+• Lightweight robotic arms  
+• Dual-arm manipulation robots  
+• Control systems and AI platforms  
+
+{%
+  include button.html
+  link="projects"
+  text="Explore our robotic systems"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+{% endcapture %}
+
+{% include feature.html
+  image="images/project.png"
+  title="Robotic Systems"
+  text=text
+%}
+
+---
+
+{% capture text %}
+
+Our research focuses on robust robotic manipulation in real-world environments, combining robotics, perception, and machine learning.
 
 {%
   include button.html
@@ -24,48 +61,19 @@ robust decision-making and adaptive interaction capabilities.
 
 {% endcapture %}
 
-{%
-  include feature.html
+{% include feature.html
   image="images/research.png"
-  link="research"
-  title="Our Research"
-  text=text
-%}
-
-{% capture text %}
-
-We design and build complete robotic systems, covering areas such as medical
-robotics, soft and continuum manipulators, and data-driven control.
-Our projects tightly couple hardware development with principled modeling
-and learning-based algorithms to address real-world deployment challenges.
-
-{%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/project.png"
-  link="projects"
-  title="Our Projects"
+  title="Research"
   flip=true
   style="bare"
   text=text
 %}
 
+---
+
 {% capture text %}
 
-Our group brings together researchers and students with complementary expertise
-in robotics, control, and artificial intelligence. Through close collaboration
-across disciplines, we translate fundamental research into practical and impactful
-robotic systems.
+Our team brings together experts in robotics, AI, and control systems.
 
 {%
   include button.html
@@ -78,10 +86,8 @@ robotic systems.
 
 {% endcapture %}
 
-{%
-  include feature.html
+{% include feature.html
   image="images/team.jpg"
-  link="team"
   title="Our Team"
   text=text
 %}
