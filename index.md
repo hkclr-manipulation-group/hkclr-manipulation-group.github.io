@@ -9,11 +9,14 @@ Based at the [Hong Kong Centre for Logistics Robotics (HKCLR)](https://www.hkclr
 
 Our embodied intelligence platform integrates **manipulation, perception, mobility, and AI**, enabling robots to operate in real-world environments.
 
+---
+
 {% capture text %}
 
 We develop advanced robotic platforms for embodied intelligence.
 
 Our core product line includes:
+
 • Lightweight robotic arms  
 • Mobile dual-arm manipulation platforms  
 • Humanoid robots  
@@ -43,6 +46,7 @@ Our core product line includes:
 Our technology stack integrates **perception, control, and AI** to enable robust robotic manipulation.
 
 Core technologies include:
+
 • Visual perception and 3D vision  
 • Robot kinematics and force control  
 • Motion planning and navigation  
