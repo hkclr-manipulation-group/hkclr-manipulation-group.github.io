@@ -3,26 +3,42 @@ layout: default
 title: Home
 ---
 
-<img src="images/product_matrix.jpg" width="1000">
+# Embodied AI Robotics Platform
 
-Our platform integrates manipulation, perception, mobility, and AI.
+Based at the [Hong Kong Centre for Logistics Robotics (HKCLR)](https://www.hkclr.hk/),  
+our team develops next-generation robotic systems that integrate **hardware, control, and artificial intelligence**.
+
+Our goal is to bridge the gap between **robotics research and real-world deployment**, enabling robust manipulation and autonomous interaction in complex environments.
+
+---
+
+## Product Matrix Overview
+
+<img src="images/product_matrix.svg" width="1000">
+
+Our embodied intelligence platform integrates **manipulation, perception, mobility, and AI**, enabling robots to operate in real-world environments.
 
 ---
 
 {% include section.html %}
 
+---
+
 {% capture text %}
 
-We develop complete robotic systems including:
+We develop advanced robotic platforms for embodied intelligence.
+
+Our core product line includes:
 
 • Lightweight robotic arms  
-• Dual-arm manipulation robots  
-• Control systems and AI platforms  
+• Mobile dual-arm manipulation platforms  
+• Humanoid robots  
+• Unified robot control systems  
 
 {%
   include button.html
-  link="projects"
-  text="Explore our robotic systems"
+  link="products"
+  text="Explore all products"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -31,7 +47,7 @@ We develop complete robotic systems including:
 {% endcapture %}
 
 {% include feature.html
-  image="images/project.png"
+  image="images/lightweight_arm.png"
   title="Robotic Systems"
   text=text
 %}
@@ -40,7 +56,41 @@ We develop complete robotic systems including:
 
 {% capture text %}
 
-Our research focuses on robust robotic manipulation in real-world environments, combining robotics, perception, and machine learning.
+Our technology stack integrates **perception, control, and AI** to enable robust robotic manipulation.
+
+Core technologies include:
+
+• Visual perception and 3D vision  
+• Robot kinematics and force control  
+• Motion planning and navigation  
+• Vision-language-action models  
+
+{%
+  include button.html
+  link="technology"
+  text="Explore our technology"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+{% endcapture %}
+
+{% include feature.html
+  image="images/humanoid_robot.png"
+  title="Core Technologies"
+  flip=true
+  style="bare"
+  text=text
+%}
+
+---
+
+{% capture text %}
+
+Our research investigates how robots achieve reliable manipulation in **unstructured and contact-rich environments**.
+
+By integrating robotics, perception, and machine learning, we aim to develop systems capable of adaptive interaction and intelligent decision-making.
 
 {%
   include button.html
@@ -56,8 +106,6 @@ Our research focuses on robust robotic manipulation in real-world environments, 
 {% include feature.html
   image="images/research.png"
   title="Research"
-  flip=true
-  style="bare"
   text=text
 %}
 
@@ -65,7 +113,9 @@ Our research focuses on robust robotic manipulation in real-world environments, 
 
 {% capture text %}
 
-Our team brings together experts in robotics, AI, and control systems.
+Our team brings together experts in robotics, artificial intelligence, and control systems.
+
+Through interdisciplinary collaboration, we translate cutting-edge research into real-world robotic products.
 
 {%
   include button.html
@@ -81,5 +131,7 @@ Our team brings together experts in robotics, AI, and control systems.
 {% include feature.html
   image="images/team.jpg"
   title="Our Team"
+  flip=true
+  style="bare"
   text=text
 %}
