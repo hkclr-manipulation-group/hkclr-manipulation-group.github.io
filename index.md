@@ -14,7 +14,7 @@ Our goal is to bridge the gap between **robotics research and real-world deploym
 
 ## Product Matrix Overview
 
-<img src="images/product_matrix.svg" width="1000">
+<img src="images/product_matrix.jpg" width="1000">
 
 Our embodied intelligence platform integrates **manipulation, perception, mobility, and AI**, enabling robots to operate in real-world environments.
 
