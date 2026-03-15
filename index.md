@@ -3,14 +3,6 @@ layout: default
 title: Home
 ---
 
-# Embodied AI Robotics Platform
-
-We develop next-generation robotic systems integrating **AI, control, and hardware**.
-
----
-
-## Product Matrix Overview
-
 <img src="images/product_matrix.jpg" width="1000">
 
 Our platform integrates manipulation, perception, mobility, and AI.
