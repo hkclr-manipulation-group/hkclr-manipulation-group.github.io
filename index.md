@@ -54,7 +54,7 @@ Core technologies include:
 
 {%
   include button.html
-  link="technology"
+  link="projects"
   text="Explore our technology"
   icon="fa-solid fa-arrow-right"
   flip=true
